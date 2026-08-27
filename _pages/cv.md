@@ -17,7 +17,7 @@ Assistant Professor in Structural Mechanics and Structures at Instituto Superior
 - **Visiting Professor**, Yanshan University, China (2025-2028)
 - **Founding Editor-in-Chief**, *GeoHazards* (since 2020)
 - **Associate Editor**, *Natural Hazards* (since 2025)
-- **Editorial Board Member/Handling Editor**, *Journal of Earthquake and Tsunami* (since 2025)
+- **Associate Editor**, *Journal of Earthquake and Tsunami* (since 2026)
 
 ## Previous academic appointments
 

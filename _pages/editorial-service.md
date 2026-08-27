@@ -12,7 +12,7 @@ Editorial work is an important part of my academic practice. I am particularly i
 - **Founding Editor-in-Chief**, *GeoHazards* (MDPI), since 2020
 - **Section Editor-in-Chief**, *Fire Risk Assessment and Safety Management in Buildings and Urban Spaces*, *Fire* (MDPI), since 2022
 - **Associate Editor**, *Natural Hazards* (Springer Nature), since 2025
-- **Editorial Board Member/Handling Editor**, *Journal of Earthquake and Tsunami* (World Scientific), since 2025
+- **Associate Editor**, *Journal of Earthquake and Tsunami* (World Scientific), since 2026
 
 I also contribute to topical and special collections covering multi-hazard risk, resilient urban areas, fire safety and geohazard characterisation.
 

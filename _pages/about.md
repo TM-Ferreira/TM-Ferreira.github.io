@@ -23,6 +23,6 @@ I have co-authored more than 250 scientific and technical publications, includin
 
 ## Current roles
 
-Alongside my appointment at Instituto Superior Técnico, I am a Visiting Professor at Yanshan University. I serve as the founding Editor-in-Chief of *GeoHazards*, Associate Editor of *Natural Hazards*, and Editorial Board Member/Handling Editor of the *Journal of Earthquake and Tsunami*. I am also a Fellow of the Higher Education Academy and a member of the EPSRC College of Reviewers.
+Alongside my appointment at Instituto Superior Técnico, I am a Visiting Professor at Yanshan University. I serve as the founding Editor-in-Chief of *GeoHazards*, Associate Editor of *Natural Hazards*, and, since 2026, Associate Editor of the *Journal of Earthquake and Tsunami*. I am also a Fellow of the Higher Education Academy and a member of the EPSRC College of Reviewers.
 
 Explore my [research](/research/), [selected publications](/publications/), [teaching and supervision](/teaching/), [editorial service](/editorial-service/) or [academic CV](/cv/).
