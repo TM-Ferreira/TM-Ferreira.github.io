@@ -307,6 +307,11 @@
     white-space: nowrap;
   }
 
+  li.author__desktop {
+    white-space: normal;
+    overflow-wrap: break-word;
+  }
+
   a {
     display: block;
     margin-bottom: 5px;
