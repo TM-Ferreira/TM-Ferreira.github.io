@@ -23,6 +23,24 @@
           </li>
         </ul>
         <ul class="hidden-links hidden"></ul>
+        <details class="mobile-nav">
+          <summary aria-label="Open navigation menu">
+            <span class="navicon" aria-hidden="true"></span>
+            <span class="sr-only">Menu</span>
+          </summary>
+          <ul>
+            {% for link in site.data.navigation.main %}
+              {% if link.url contains 'http' %}
+                {% assign domain = '' %}
+              {% else %}
+                {% assign domain = base_path %}
+              {% endif %}
+              <li class="{% if page.url contains link.url and link.url != '/' %}selected{% endif %}">
+                <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+        </details>
       </nav>
     </div>
   </div>
