@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Structural risk, resilience and built heritage"
+title: "Multi-hazard risk assessment, resilience and built heritage"
 author_profile: true
 redirect_from:
   - /about/
