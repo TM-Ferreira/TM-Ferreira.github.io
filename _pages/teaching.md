@@ -7,9 +7,21 @@ author_profile: true
 
 My teaching is grounded in structural mechanics, existing buildings, computational analysis and risk. I aim to connect fundamental engineering principles with field evidence, realistic case studies and the societal decisions that follow from technical assessment.
 
-## Teaching experience
+## Current teaching at Instituto Superior Técnico
 
-At Instituto Superior Técnico, my teaching and supervision are based in Structural Mechanics and Structures. Previous appointments at UWE Bristol and the University of Coimbra included responsibility for and teaching on:
+In the second semester of 2025/26, my teaching at Instituto Superior Técnico includes:
+
+- Second-cycle Integrating Project in Civil Engineering (*Projecto Integrador de 2º Ciclo em Engenharia Civil*)
+- Strength of Materials (*Resistência dos Materiais*)
+- Mechanics I (*Mecânica I*)
+- Undergraduate Project or Dissertation in Civil Engineering — SHU (*Projecto Ou Dissertação de Licenciatura em Engenharia Civil (Shu)*)
+- First-cycle Integrating Project in Civil Engineering (*Projeto Integrador de 1º Ciclo em Engenharia Civil*)
+
+The current semester listing is maintained on my [official Técnico profile](https://fenix.tecnico.ulisboa.pt/homepage/ist430411).
+
+## Previous teaching experience
+
+My previous appointments at UWE Bristol and the University of Coimbra included responsibility for and teaching on:
 
 - Computational Civil Engineering
 - Engineering Graphics and Communication
