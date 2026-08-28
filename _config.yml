@@ -44,6 +44,7 @@ author:
   pubmed           :
   researchgate     : "https://www.researchgate.net/profile/Tiago-Ferreira-27"
   scopus           : "https://www.scopus.com/authid/detail.uri?authorId=55509289200&origin=AuthorEval"
+  zenodo           : "https://zenodo.org/search?q=metadata.creators.person_or_org.name%3A%22Ferreira%2C%20Tiago%20Miguel%22&l=list&p=1&s=10&sort=bestmatch"
   zotero           : # URL
 
 
@@ -66,7 +67,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "tiago-miguel-ferreira-55189633"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
