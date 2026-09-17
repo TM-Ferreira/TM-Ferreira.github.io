@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Complete list of articles published in Web of Science Core Collection (Science Citation Index Expanded)-indexed journals"
+title: "Journal Articles Indexed in the Science Citation Index Expanded (SCIE)"
 permalink: /journal-articles/
 author_profile: true
 ---
