@@ -1,11 +1,9 @@
 ---
 layout: archive
-title: "Complete list of journal articles"
+title: "Complete list of articles published in Web of Science Core Collection (Science Citation Index Expanded)-indexed journals"
 permalink: /journal-articles/
 author_profile: true
 ---
-
-This page contains my **{{ site.data.journal_articles | size }} articles in international journals indexed in the Web of Science Core Collection (Science Citation Index Expanded)**, listed from newest to oldest. Article identifiers (ARI) follow my long-form CV. Select an article title or DOI to open its journal page in a new tab.
 
 <div class="journal-tools" role="search" aria-label="Filter journal articles">
   <div class="journal-tools__fields">
