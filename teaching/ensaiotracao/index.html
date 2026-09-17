@@ -6,6 +6,7 @@
   <meta name="theme-color" content="#ffffff">
   <title>Ensaio de Tração Uniaxial | Resistência dos Materiais</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="comparison.css">
 </head>
 <body>
   <main class="appShell">
@@ -41,6 +42,21 @@
       </div>
 
       <div class="sliderGrid" id="sliderGrid"></div>
+
+      <div class="comparisonPanel" aria-labelledby="comparisonTitle">
+        <div class="comparisonHeading">
+          <div>
+            <p class="eyebrow">Comparação da geometria</p>
+            <h2 id="comparisonTitle">Ao alterar o diâmetro</h2>
+          </div>
+          <div class="modeSelector" role="radiogroup" aria-label="Grandeza mantida ao alterar o diâmetro">
+            <label><input type="radio" name="comparisonMode" value="strain" checked> Mesma extensão</label>
+            <label><input type="radio" name="comparisonMode" value="force"> Mesma força</label>
+          </div>
+        </div>
+        <p id="comparisonExplanation" class="comparisonExplanation">Mantém se a extensão atual. A tensão do material permanece igual e a força varia com a área da secção.</p>
+        <p id="comparisonFeedback" class="comparisonFeedback" aria-live="polite"></p>
+      </div>
 
       <div class="checks">
         <label><input id="showTrue" type="checkbox"> Mostrar tensão e extensão verdadeiras</label>
@@ -142,5 +158,6 @@
     </footer>
   </main>
   <script src="app.js"></script>
+  <script src="comparison.js"></script>
 </body>
 </html>
