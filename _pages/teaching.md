@@ -19,6 +19,12 @@ In the second semester of 2025/26, my teaching at Instituto Superior Técnico in
 
 The current semester listing is maintained on my [official Técnico profile](https://fenix.tecnico.ulisboa.pt/homepage/ist430411).
 
+## Teaching resources
+
+### Resistência dos Materiais
+
+- [Interactive uniaxial tensile test simulator](https://tm-ferreira.github.io/teaching/ensaiotracao/)
+
 ## Previous teaching experience
 
 My previous appointments at UWE Bristol and the University of Coimbra included responsibility for and teaching on:
