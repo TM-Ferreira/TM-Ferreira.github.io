@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#ffffff">
+  <title>Ensaio de Tração Uniaxial | Resistência dos Materiais</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="appShell">
+    <header class="institutionalHeader card">
+      <img class="decivilLogo" src="DECIVIL_RGB.png" alt="DECivil, Departamento de Engenharia Civil, Arquitetura e Ambiente, Técnico Lisboa">
+      <div class="headerText">
+        <p class="courseLine">Resistência dos Materiais 2025/2026</p>
+        <h1>Ensaio de Tração Uniaxial</h1>
+        <p class="subtitle">Simulador interativo para apoio às aulas</p>
+        <p class="authorLine">Prof. Tiago Miguel Ferreira</p>
+      </div>
+      <button id="resetButton" class="secondary headerReset">Reiniciar</button>
+    </header>
+
+    <section class="controlCard card">
+      <div class="controlHeader">
+        <label for="materialSelect">Material</label>
+        <select id="materialSelect">
+          <option>Aço macio</option>
+          <option>Liga de alumínio</option>
+          <option>Material frágil</option>
+          <option>Definido pelo utilizador</option>
+        </select>
+      </div>
+
+      <div class="controlHeader">
+        <label for="behaviourSelect">Comportamento</label>
+        <select id="behaviourSelect">
+          <option>Patamar de cedência</option>
+          <option>Endurecimento suave</option>
+          <option>Frágil</option>
+        </select>
+      </div>
+
+      <div class="sliderGrid" id="sliderGrid"></div>
+
+      <div class="checks">
+        <label><input id="showTrue" type="checkbox"> Mostrar tensão e extensão verdadeiras</label>
+        <label><input id="showPoints" type="checkbox" checked> Mostrar pontos característicos</label>
+      </div>
+
+      <div class="buttonRow">
+        <button id="startButton" class="primary">Iniciar ensaio</button>
+        <button id="pauseButton" class="secondary">Pausa</button>
+      </div>
+
+      <label class="speedControl">Velocidade de carregamento
+        <input id="speedSlider" type="range" min="1" max="25" value="8" step="1">
+      </label>
+    </section>
+
+    <section class="visualGrid">
+      <article class="card canvasCard">
+        <div class="cardTitleRow">
+          <div>
+            <p class="eyebrow">Resposta do material</p>
+            <h2>Curva tensão extensão</h2>
+          </div>
+          <span class="hint">Arraste sobre o gráfico</span>
+        </div>
+        <canvas id="stressCanvas" aria-label="Curva tensão extensão"></canvas>
+      </article>
+
+      <article class="card canvasCard">
+        <div class="cardTitleRow">
+          <div>
+            <p class="eyebrow">Resposta do provete</p>
+            <h2>Curva força alongamento</h2>
+          </div>
+        </div>
+        <canvas id="forceCanvas" aria-label="Curva força alongamento"></canvas>
+      </article>
+
+      <article class="card specimenCard">
+        <div class="cardTitleRow">
+          <div>
+            <p class="eyebrow">Provete virtual</p>
+            <h2>Extensão</h2>
+          </div>
+          <span id="stageBadge" class="badge">Elástico</span>
+        </div>
+        <canvas id="specimenCanvas" aria-label="Provete de tração animado"></canvas>
+      </article>
+
+      <article class="card stateCard">
+        <div class="cardTitleRow">
+          <div>
+            <p class="eyebrow">Estado atual</p>
+            <h2>Grandezas medidas</h2>
+          </div>
+        </div>
+        <div class="readoutGrid">
+          <div><span>Tensão</span><strong id="sigmaValue">0 MPa</strong></div>
+          <div><span>Extensão</span><strong id="epsilonValue">0</strong></div>
+          <div><span>Força</span><strong id="forceValue">0 kN</strong></div>
+          <div><span>Alongamento</span><strong id="deltaValue">0 mm</strong></div>
+          <div><span>Diâmetro</span><strong id="diameterValue">0 mm</strong></div>
+          <div><span>Fase</span><strong id="stageValue">Elástico</strong></div>
+        </div>
+      </article>
+    </section>
+
+    <section class="card teachingCard">
+      <div>
+        <p class="eyebrow">Modo de previsão</p>
+        <h2>Propriedade do material ou do provete?</h2>
+        <p id="challengeQuestion">Escolha um desafio, formule uma previsão e revele depois o resultado.</p>
+      </div>
+      <div class="challengeControls">
+        <select id="challengeSelect">
+          <option>Duplicar o diâmetro</option>
+          <option>Duplicar o comprimento de referência</option>
+          <option>Duplicar o módulo de Young</option>
+          <option>Duplicar a área</option>
+        </select>
+        <button id="revealButton" class="primary">Revelar resultado</button>
+      </div>
+      <p id="challengeAnswer" class="answer"></p>
+    </section>
+
+    <section class="card equationsCard">
+      <p class="eyebrow">Relações fundamentais</p>
+      <div class="equationGrid">
+        <div><span>Tensão nominal</span><strong>σ = F / A₀</strong></div>
+        <div><span>Extensão nominal</span><strong>ε = ΔL / L₀</strong></div>
+        <div><span>Relação elástica</span><strong>σ = E ε</strong></div>
+        <div><span>Força axial</span><strong>F = σ A₀</strong></div>
+      </div>
+    </section>
+
+    <footer>
+      <p>Simulador desenvolvido para fins didáticos. Os ramos após a cedência são fenomenológicos e servem para apoiar a interpretação de um ensaio de tração uniaxial.</p>
+      <p>Resistência dos Materiais 2025/2026 · Prof. Tiago Miguel Ferreira</p>
+    </footer>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
