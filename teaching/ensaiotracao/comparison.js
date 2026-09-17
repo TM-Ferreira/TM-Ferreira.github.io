@@ -1,5 +1,7 @@
 'use strict';
 
+let geometryComparisonBaseline = null;
+
 function comparisonMode(){
   return document.querySelector('input[name="comparisonMode"]:checked')?.value || 'strain';
 }
@@ -72,16 +74,36 @@ function renderComparisonState(){
   updateReadouts();
 }
 
+function captureGeometryBaseline(){
+  if(!data || !data.eps || !data.eps.length) return null;
+  const i = Math.min(index,data.eps.length-1);
+  return {
+    epsilon:data.eps[i],
+    force:data.F[i],
+    sigma:data.sigma[i],
+    diameter:params.d0
+  };
+}
+
+function beginGeometryComparison(){
+  if(!geometryComparisonBaseline) geometryComparisonBaseline = captureGeometryBaseline();
+}
+
+function clearGeometryComparison(){
+  geometryComparisonBaseline = null;
+}
+
 function handleDiameterInput(ev){
   if(ev.target.id !== 'd0Input') return;
 
   ev.stopImmediatePropagation();
   ev.preventDefault();
 
-  const oldEpsilon = data.eps[index];
-  const oldForce = data.F[index];
-  const oldSigma = data.sigma[index];
-  const oldDiameter = params.d0;
+  const baseline = geometryComparisonBaseline || captureGeometryBaseline();
+  const oldEpsilon = baseline ? baseline.epsilon : data.eps[index];
+  const oldForce = baseline ? baseline.force : data.F[index];
+  const oldSigma = baseline ? baseline.sigma : data.sigma[index];
+  const oldDiameter = baseline ? baseline.diameter : params.d0;
   const newDiameter = Number(ev.target.value);
   const feedback = document.getElementById('comparisonFeedback');
 
@@ -113,7 +135,7 @@ function handleDiameterInput(ev){
   } else {
     index = nearestIndex(data.eps,Math.min(oldEpsilon,params.epsF));
     const newForce = data.F[index];
-    feedback.textContent = `Extensão mantida em ${formatPT(data.eps[index],5)}. A tensão mantém se em ${formatPT(data.sigma[index]/1e6,1)} MPa e a força passa de ${formatPT(oldForce/1e3,2)} kN para ${formatPT(newForce/1e3,2)} kN.`;
+    feedback.textContent = `Para d₀ = ${formatPT(oldDiameter,1)} mm, F = ${formatPT(oldForce/1e3,2)} kN. Para d₀ = ${formatPT(params.d0,1)} mm, mantendo a mesma extensão, F = ${formatPT(newForce/1e3,2)} kN. A tensão mantém se em ${formatPT(data.sigma[index]/1e6,1)} MPa.`;
   }
 
   renderComparisonState();
@@ -144,24 +166,46 @@ function handlePredictionClick(ev){
   document.getElementById('challengeAnswer').textContent = answers[choice];
 }
 
+document.addEventListener('pointerdown',ev=>{
+  if(ev.target.id === 'd0Input') beginGeometryComparison();
+},true);
+document.addEventListener('keydown',ev=>{
+  if(ev.target.id === 'd0Input') beginGeometryComparison();
+},true);
+document.addEventListener('change',ev=>{
+  if(ev.target.id === 'd0Input') clearGeometryComparison();
+},true);
+document.addEventListener('keyup',ev=>{
+  if(ev.target.id === 'd0Input') clearGeometryComparison();
+},true);
+document.addEventListener('pointercancel',ev=>{
+  if(ev.target.id === 'd0Input') clearGeometryComparison();
+},true);
+
 document.addEventListener('input',handleDiameterInput,true);
 document.addEventListener('click',handlePredictionClick,true);
 
 document.querySelectorAll('input[name="comparisonMode"]').forEach(input => {
-  input.addEventListener('change',()=>refreshComparisonExplanation(true));
+  input.addEventListener('change',()=>{
+    clearGeometryComparison();
+    refreshComparisonExplanation(true);
+  });
 });
 
 materialSelect.addEventListener('change',()=>{
+  clearGeometryComparison();
   const feedback = document.getElementById('comparisonFeedback');
   if(feedback) feedback.textContent = '';
 });
 
 behaviourSelect.addEventListener('change',()=>{
+  clearGeometryComparison();
   const feedback = document.getElementById('comparisonFeedback');
   if(feedback) feedback.textContent = '';
 });
 
 document.getElementById('resetButton').addEventListener('click',()=>{
+  clearGeometryComparison();
   const feedback = document.getElementById('comparisonFeedback');
   if(feedback) feedback.textContent = '';
 });
