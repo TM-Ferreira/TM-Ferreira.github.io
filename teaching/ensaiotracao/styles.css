@@ -43,6 +43,16 @@ button.secondary { background: white; color: #18212b; }
 .buttonRow { display: flex; gap: 8px; }
 .speedControl { display: grid; gap: 6px; font-size: 0.85rem; }
 
+.comparisonPanel { grid-column: 1 / -1; border: 1px solid #e2e6ea; border-radius: 12px; padding: 12px 14px; background: #fafbfc; }
+.comparisonHeading { display: flex; justify-content: space-between; align-items: center; gap: 14px; }
+.comparisonHeading h2 { margin: 0; font-size: 1rem; }
+.modeSelector { display: inline-flex; gap: 4px; padding: 4px; background: #eef1f4; border-radius: 10px; }
+.modeSelector label { position: relative; display: flex; align-items: center; min-height: 36px; padding: 0 12px; border-radius: 8px; cursor: pointer; font-size: 0.86rem; font-weight: 650; color: #4f5965; }
+.modeSelector input { position: absolute; opacity: 0; pointer-events: none; }
+.modeSelector label:has(input:checked) { background: white; color: #18212b; box-shadow: 0 1px 4px rgba(24,33,43,0.12); }
+.comparisonExplanation { margin: 8px 0 0; color: #59636f; font-size: 0.86rem; }
+.comparisonFeedback { margin: 5px 0 0; min-height: 1.2em; color: #18212b; font-size: 0.82rem; font-weight: 650; }
+
 .visualGrid { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 16px; }
 .canvasCard, .specimenCard, .stateCard { padding: 14px; min-height: 350px; }
 .cardTitleRow { display: flex; justify-content: space-between; align-items: start; gap: 12px; }
@@ -85,6 +95,9 @@ footer { color: #67727e; font-size: 0.82rem; padding: 18px 4px; }
   canvas { height: 260px; }
   .teachingCard { grid-template-columns: 1fr; }
   .challengeControls { display: grid; grid-template-columns: 1fr; }
+  .comparisonHeading { align-items: stretch; flex-direction: column; }
+  .modeSelector { width: 100%; }
+  .modeSelector label { flex: 1; justify-content: center; text-align: center; }
   .equationGrid { grid-template-columns: 1fr 1fr; }
 }
 
@@ -104,4 +117,88 @@ footer { color: #67727e; font-size: 0.82rem; padding: 18px 4px; }
   .courseLine { font-size: 0.78rem; }
   .headerText h1 { font-size: 1.4rem; }
   .subtitle, .authorLine { font-size: 0.8rem; }
+}
+
+.headerActions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.languageSwitch {
+  display: inline-flex;
+  padding: 3px;
+  border: 1px solid #d7dde3;
+  border-radius: 9px;
+  background: #f4f6f8;
+}
+
+.languageButton {
+  min-height: 34px;
+  min-width: 42px;
+  padding: 0 10px;
+  border: 0;
+  border-radius: 7px;
+  background: transparent;
+  color: #5c6672;
+  font-size: 0.78rem;
+  font-weight: 750;
+}
+
+.languageButton.active {
+  background: #ffffff;
+  color: #18212b;
+  box-shadow: 0 1px 4px rgba(24,33,43,0.12);
+}
+
+.authorLine {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.orcidLink {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.orcidIcon {
+  display: block;
+  width: 15px;
+  height: 15px;
+  flex: 0 0 15px;
+}
+
+.orcidLink:hover .orcidIcon,
+.orcidLink:focus-visible .orcidIcon {
+  opacity: 0.86;
+}
+
+footer a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+
+.footerMeta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 7px;
+}
+
+@media (max-width: 760px) {
+  .institutionalHeader { grid-template-columns: minmax(160px, 220px) 1fr auto; }
+  .headerActions { flex-direction: column; align-items: stretch; }
+  .languageSwitch { justify-content: center; }
+}
+
+@media (max-width: 520px) {
+  .institutionalHeader { grid-template-columns: 1fr; }
+  .decivilLogo { grid-column: 1; max-width: 210px; }
+  .headerText { grid-column: 1; }
+  .headerActions { grid-column: 1; flex-direction: row; justify-content: space-between; align-items: center; }
+  .headerReset { width: auto; }
 }
