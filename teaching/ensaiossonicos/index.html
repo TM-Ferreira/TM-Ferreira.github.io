@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#00aede">
+  <meta name="description" content="Laboratório virtual para o ensino de ensaios sónicos diretos em alvenaria antiga.">
+  <title>Ensaios Sónicos em Alvenaria | Laboratório FUNDEC</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="app.js"></script>
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <div class="course-identity"><span class="course-rule" aria-hidden="true"></span><div><strong>CURSO FUNDEC</strong><small>Caracterização de Estruturas Existentes para Apoio à Avaliação da Segurança Estrutural</small></div></div>
+    <div class="institutional-logos" aria-label="Entidades do curso"><img id="fundecLogo" src="assets/fundec.png" alt="FUNDEC"><img id="tecnicoLogo" src="assets/tecnico_lisboa.png" alt="Técnico Lisboa"></div>
+  </div>
+</header>
+<main class="container">
+  <section class="workspace">
+    <div class="visual-card card">
+      <div class="card-heading"><div><span class="section-kicker">ENSAIO SÓNICO DIRETO · ONDAS P</span><h2>Parede e instrumentação</h2></div><span class="status" id="statusBadge"><span class="status-dot"></span> Pronto</span></div>
+      <div class="wall-view" id="wallView">
+        <svg id="wallSvg" viewBox="0 0 740 340" role="img" aria-label="Representação de uma parede antiga, com martelo instrumentado de um lado e acelerómetro no outro.">
+          <defs>
+            <linearGradient id="stoneShade" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#a8a59c"/><stop offset=".56" stop-color="#85877f"/><stop offset="1" stop-color="#6d736d"/></linearGradient>
+            <linearGradient id="sectionFace" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#797a73"/><stop offset=".4" stop-color="#b6b3a5"/><stop offset="1" stop-color="#888c83"/></linearGradient>
+            <pattern id="hatch" width="13" height="13" patternUnits="userSpaceOnUse"><path d="M0 13L13 0" stroke="#ecede8" stroke-width="1" opacity=".18"/></pattern>
+            <filter id="hardwareShadow"><feDropShadow dx="1" dy="3" stdDeviation="2" flood-opacity=".2"/></filter>
+            <clipPath id="wallClip"><rect x="187" y="75" width="368" height="205" rx="2"/></clipPath>
+          </defs>
+          <path d="M187 64V44H555V64" fill="none" stroke="#778390" stroke-width="1.5"/>
+          <path d="M187 50v-12 M555 50v-12" stroke="#778390" stroke-width="1.5"/>
+          <rect x="298" y="32" width="150" height="22" rx="11" fill="#f3f7fa"/>
+          <text x="373" y="47" class="svg-label dimension-value" text-anchor="middle" id="wallThicknessLabel">1,20 m</text>
+          <rect x="187" y="75" width="368" height="205" fill="url(#sectionFace)" stroke="#626e76" stroke-width="2"/>
+          <g id="stones" clip-path="url(#wallClip)"></g>
+          <rect x="187" y="75" width="368" height="205" fill="url(#hatch)" pointer-events="none"/>
+          <rect x="187" y="75" width="368" height="205" fill="none" stroke="#5f6563" stroke-width="2"/>
+          <path d="M205 174H537" stroke="#e9d4ac" stroke-width="2" stroke-dasharray="6 7" opacity=".9"/>
+          <g id="waveFront" opacity="0" pointer-events="none"><ellipse cx="195" cy="174" rx="12" ry="45" fill="none" stroke="#f9e2ad" stroke-width="4" opacity=".8"/><ellipse cx="195" cy="174" rx="24" ry="86" fill="none" stroke="#ffecc8" stroke-width="2" opacity=".6"/></g>
+          <g filter="url(#hardwareShadow)">
+            <rect x="139" y="162" width="47" height="24" rx="5" fill="#354d61" stroke="#d6e3eb" stroke-width="2"/>
+            <rect x="127" y="168" width="15" height="12" rx="2" fill="#88a8b3"/>
+            <path d="M133 176L76 219" stroke="#c69b48" stroke-width="12" stroke-linecap="round"/>
+            <path d="M133 176L76 219" stroke="#f0c971" stroke-width="5" stroke-linecap="round"/>
+            <rect x="555" y="159" width="20" height="30" rx="4" fill="#247f86" stroke="#e0edf0" stroke-width="2"/>
+            <path d="M576 173C605 173 603 226 630 226" fill="none" stroke="#267982" stroke-width="3"/>
+            <rect x="624" y="211" width="57" height="32" rx="5" fill="#1d3448" stroke="#e1eaee" stroke-width="2"/>
+            <path d="M632 231h11l3-10 6 16 6-10h15" fill="none" stroke="#9bd8d7" stroke-width="2"/>
+          </g>
+          <circle cx="187" cy="174" r="5" fill="#d9b66e" stroke="white" stroke-width="2"/><circle cx="555" cy="174" r="5" fill="#79d0c7" stroke="white" stroke-width="2"/>
+          <text x="88" y="268" text-anchor="middle" class="svg-label svg-blue">EMISSOR</text><text x="88" y="284" text-anchor="middle" class="svg-sub">Martelo</text>
+          <text x="628" y="268" text-anchor="middle" class="svg-label svg-teal">RECETOR</text><text x="628" y="284" text-anchor="middle" class="svg-sub">Acelerómetro</text>
+          <line x1="187" y1="307" x2="555" y2="307" stroke="#65788a" stroke-width="1.6" stroke-dasharray="5 5"/><path d="M187 301v12m368-12v12" stroke="#65788a" stroke-width="1.5"/>
+          <text x="371" y="330" class="svg-sub" text-anchor="middle">Percurso de propagação da onda P</text>
+        </svg>
+
+      </div>
+      <div class="visual-caption"><span><i class="legend-dot hit" aria-hidden="true"></i> Impacto</span><span><i class="legend-dot travel" aria-hidden="true"></i> Propagação P</span><span><i class="legend-dot sensor" aria-hidden="true"></i> Receção</span><span class="slow-caption">Corte esquemático · animação em câmara lenta</span></div>
+      <div class="action-row">
+        <button class="btn btn-primary" id="startBtn" type="button"><span aria-hidden="true">▶</span><span id="startLabel">Iniciar ensaio</span></button>
+        <button class="btn btn-quiet" id="resetBtn" type="button"><span aria-hidden="true">↻</span> Reiniciar medições</button>
+      </div>
+      <div class="inline-status" id="inlineStatus" aria-live="polite">Selecione a parede e inicie o ensaio para obter sinais sintéticos.</div>
+    </div>
+
+    <div class="setup-card card">
+      <div class="card-heading"><div><span class="section-kicker">PARÂMETROS DO ENSAIO</span><h2>Configuração</h2></div></div>
+      <div class="control-group"><label for="materialSelect">Condição mecânica simulada</label><select id="materialSelect"><option value="medium">Rigidez intermédia</option><option value="low">Rigidez reduzida</option><option value="high">Rigidez elevada</option></select><p class="field-hint">Cenários hipotéticos com diferentes módulos dinâmicos internos. Os valores não representam uma campanha específica.</p></div>
+      <div class="setup-input-grid">
+        <label class="config-field" for="thicknessInput"><span>Espessura da parede, L <small>[m]</small></span><input id="thicknessInput" type="number" min="0.60" max="2.50" step="0.05" value="1.20" inputmode="decimal"><small>De 0,60 a 2,50 m</small></label>
+        <label class="config-field" for="rhoInput"><span>Massa volúmica, ρ <small>[kg/m³]</small></span><input id="rhoInput" type="number" min="1500" max="2800" step="50" value="2300" inputmode="numeric"><small>De 1500 a 2800 kg/m³</small></label>
+      </div>
+      <div class="setup-validation" id="setupMessage" role="status" aria-live="polite">Parâmetros válidos. Inicie o ensaio.</div>
+      <div class="parameter-grid fixed-parameters">
+        <div class="parameter"><span>Coeficiente de Poisson, ν</span><strong>0,20</strong></div>
+        <div class="parameter"><span>Frequência de aquisição</span><strong>125 <small>kHz</small></strong></div>
+      </div>
+<hr class="sep">
+      <div class="small-note"><strong>Premissa do modelo.</strong> Cada condição corresponde a um módulo dinâmico interno não apresentado antes da verificação. A velocidade resulta desse módulo, de ρ e de ν, admitindo um meio equivalente, homogéneo, isotrópico e elástico. A espessura determina o tempo de percurso.</div>
+    </div>
+  </section>
+
+  <section class="card acquisition-card" id="acquisition">
+    <div class="card-heading graph-card-heading"><div><span class="section-kicker">AQUISIÇÃO E TRATAMENTO</span><h2>Registos instrumentais</h2><p>Marque o início do impacto na força e a primeira chegada da onda P na aceleração. Utilize a ampliação para afinar a leitura.</p></div><div class="record-meta"><span>125 000 amostras/s</span><strong id="recordId">Sem registo</strong></div></div>
+    <div class="graph-legend"><span><i class="legend-line force"></i> Força · martelo</span><span><i class="legend-line acceleration"></i> Aceleração · recetor</span><span><i class="legend-line cursor"></i> Cursor</span><span><i class="legend-line truth"></i> Referência revelada</span></div>
+    <div class="acq-toolbar">
+      <div class="zoom-toolbar">
+        <label for="zoomSpan">Ampliação <select id="zoomSpan"><option value="5.5">Visão geral · 5,5 ms</option><option value="2">Intermédia · 2 ms</option><option value="0.5">Pormenor · 0,5 ms</option><option value="0.15">Máxima · 0,15 ms</option></select></label>
+        <label class="centre-control" for="zoomCentre">Centro <input id="zoomCentre" type="range" min="0" max="5.5" value="2.75" step="0.008"><output id="zoomCentreValue" for="zoomCentre">2,75 ms</output></label>
+        <div class="focus-actions"><button type="button" id="focusImpactBtn" class="focus-btn" disabled>Centrar em t₀</button><button type="button" id="focusArrivalBtn" class="focus-btn" disabled>Centrar em tₚ</button></div>
+      </div>
+      <button id="rawCsvBtn" type="button" class="export-btn raw-export" disabled>Exportar sinais CSV ↗</button>
+    </div>
+    <div class="plots">
+      <div class="plot-wrap"><div class="plot-title"><strong>Emissão</strong><span>Força normalizada [−]</span></div><svg class="signal-chart" id="forceChart" viewBox="0 0 1000 232" aria-label="Sinal de força em função do tempo. Selecione o cursor de emissão e clique neste gráfico."></svg></div>
+      <div class="plot-wrap"><div class="plot-title"><strong>Receção</strong><span>Aceleração normalizada [−]</span></div><svg class="signal-chart" id="accChart" viewBox="0 0 1000 232" aria-label="Sinal de aceleração em função do tempo. Selecione o cursor de receção e clique neste gráfico."></svg></div>
+    </div>
+    <div class="cursor-panel"><div class="cursor-instruction"><strong>Cursores independentes</strong><span>Toque, clique ou arraste o cursor em cada gráfico. Os instantes são ajustados a intervalos de 8 µs.</span></div><div class="cursor-inputs"><label for="impactTime"><span class="cursor-chip impact"></span> Impacto t<sub>0</sub> <span class="input-suffix">[ms]</span></label><input id="impactTime" type="number" inputmode="decimal" min="0" max="5.5" step="0.008" placeholder="0,000" disabled><label for="arrivalTime"><span class="cursor-chip arrival"></span> Chegada t<sub>P</sub> <span class="input-suffix">[ms]</span></label><input id="arrivalTime" type="number" inputmode="decimal" min="0" max="5.5" step="0.008" placeholder="0,000" disabled></div></div>
+  </section>
+
+  <section class="results-layout">
+    <div class="card student-card">
+      <div class="card-heading"><div><span class="section-kicker">CALCULAR E CONFERIR</span><h2>Os seus resultados</h2></div><div class="test-counter" id="testCounter">Medição 0 / 10</div></div>
+      <div class="derived-row"><div><span>Tempo de propagação, Δt</span><strong id="travelResult">Por determinar</strong></div><div><span>Comprimento do percurso</span><strong id="lengthResult">1,20 m</strong></div></div>
+      <p class="measurement-tip">A verificação distingue a consistência dos cálculos da localização da primeira chegada. A referência só é apresentada após uma tentativa.</p>
+      <form id="calcForm" novalidate><div class="calc-grid"><label for="studentV">Velocidade da onda P, V<sub>P</sub> <small>m/s</small><input id="studentV" type="text" inputmode="decimal" placeholder="A sua estimativa" disabled autocomplete="off"></label><label for="studentE">Módulo dinâmico, E<sub>d</sub> <small>GPa</small><input id="studentE" type="text" inputmode="decimal" placeholder="A sua estimativa" disabled autocomplete="off"></label></div><div class="result-actions"><button type="submit" class="btn btn-primary" id="checkBtn" disabled>Verificar medição</button><button type="button" class="btn btn-secondary" id="revealBtn" disabled>Revelar referência</button></div></form>
+      <div id="feedback" class="feedback" aria-live="polite" hidden></div>
+      <div id="revealPanel" class="reveal-panel" hidden><span>VALORES INTERNOS DA SIMULAÇÃO</span><div class="reveal-stats"><div><small>Δt simulado</small><strong id="trueT">—</strong></div><div><small>V<sub>P</sub> simulado</small><strong id="trueV">—</strong></div><div><small>E<sub>d</sub> equivalente</small><strong id="trueE">—</strong></div></div><p>Estes valores são parâmetros sintéticos do modelo. Não constituem sinais experimentais disponibilizados pelos autores.</p></div>
+    </div>
+    <div class="card history-card"><div class="card-heading"><div><span class="section-kicker">REPETIÇÕES DO ENSAIO</span><h2>Série de medições</h2></div><button id="csvBtn" type="button" class="export-btn" disabled title="Exportar as repetições verificadas">Exportar CSV ↗</button></div><p class="history-desc">O artigo recomenda normalmente 6 a 10 repetições por ponto. Reúna até 10 medições, reveja qualquer registo validado e avalie a dispersão.</p><div class="table-shell"><table><thead><tr><th>N.º</th><th>Δt [ms]</th><th>V<sub>P</sub> [m/s]</th><th>E<sub>d</sub> [GPa]</th></tr></thead><tbody id="historyBody"><tr><td colspan="4" class="empty-row">Sem resultados. Inicie o primeiro ensaio.</td></tr></tbody></table></div><div class="summary-stats">
+        <div><span>Tempo médio</span><strong id="meanT">—</strong></div><div><span>Desvio padrão de Δt</span><strong id="stdT">—</strong></div><div><span>Velocidade representativa</span><strong id="meanV">—</strong></div><div><span>Módulo representativo</span><strong id="meanE">—</strong></div><div><span>Desvio padrão de Vₚ</span><strong id="stdV">—</strong></div><div><span>Coef. de variação de Vₚ</span><strong id="covV">—</strong></div>
+      </div><p class="stat-note">A velocidade representativa é obtida da média dos tempos de propagação, Vₚ = L / média(Δt). Os desvios padrão são amostrais, com n − 1 no denominador.</p>
+    </div>
+  </section>
+
+  <section class="card report-card" id="reportCard">
+    <div class="card-heading"><div><span class="section-kicker">DOCUMENTAR O ENSAIO</span><h2>Relatório de ensaio</h2><p>Inclua a configuração, a tabela de leituras, as estatísticas e os sinais do registo selecionado. Pode guardar como PDF através da função de impressão do navegador.</p></div><span class="report-flag">Dados sintéticos</span></div>
+    <div class="report-controls">
+      <label for="reportName">Nome ou grupo <span>(opcional)</span><input id="reportName" type="text" maxlength="100" placeholder="Identificação dos participantes"></label>
+      <label for="reportNotes">Observações <span>(opcional)</span><textarea id="reportNotes" rows="2" maxlength="1200" placeholder="Descreva a interpretação dos resultados e as principais limitações."></textarea></label>
+      <button type="button" id="reportBtn" class="btn btn-secondary" disabled>Gerar relatório / imprimir PDF</button>
+    </div>
+  </section>
+  <section id="reportSheet" class="print-report" hidden aria-label="Relatório para impressão"></section>
+  <section class="science-note"><span class="note-icon" aria-hidden="true">i</span><div><strong>Sobre o rigor científico desta simulação</strong><p>Os sinais apresentados são sintéticos e destinam-se à aprendizagem da interpretação de registos sónicos. As condições mecânicas são cenários hipotéticos, com módulos dinâmicos de referência na ordem dos valores apresentados no artigo, mas não representam ensaios realizados em locais específicos. Os tempos e sinais são gerados a partir de um modelo didático de impulso, propagação, atenuação e ruído, e não reproduzem registos instrumentais originais. A conversão de velocidades em rigidez dinâmica pressupõe um meio homogéneo, isotrópico e elástico equivalente. A dispersão entre repetições é ilustrativa e não corresponde a uma calibração metrológica. Em alvenarias antigas, os resultados devem ser interpretados sobretudo de forma comparativa.</p></div></section>
+  <footer><div>FUNDEC <span>·</span> Instituto Superior Técnico <span>·</span> Prof. Tiago Miguel Ferreira</div><div>Base científica: Arêde et al., <em>rpee</em>, Série III, n.º 31, 2026 <span>·</span> Protótipo didático</div></footer>
+</main>
+</body>
+</html>

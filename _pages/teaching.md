@@ -25,6 +25,10 @@ The current semester listing is maintained on my [official Técnico profile](htt
 
 - [Interactive uniaxial tensile test simulator](https://tm-ferreira.github.io/teaching/ensaiotracao/)
 
+### Caracterização de Estruturas Existentes
+
+- [Laboratório virtual de ensaios sónicos em alvenaria](/teaching/ensaiossonicos/)
+
 ## Previous teaching experience
 
 My previous appointments at UWE Bristol and the University of Coimbra included responsibility for and teaching on:
