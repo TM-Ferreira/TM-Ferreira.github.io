@@ -28,6 +28,7 @@ The current semester listing is maintained on my [official Técnico profile](htt
 ### Caracterização de Estruturas Existentes
 
 - [Laboratório virtual de ensaios sónicos em alvenaria](/teaching/ensaiossonicos/)
+- [Laboratório virtual de ensaios com macacos planos em alvenaria](/teaching/macacosplanos/)
 
 ## Previous teaching experience
 

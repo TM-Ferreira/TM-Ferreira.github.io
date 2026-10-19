@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#00aed8">
+<meta name="description" content="Laboratório virtual FUNDEC de ensaios com macacos planos simples e duplos em alvenaria antiga.">
+<title>Macacos planos | Laboratório FUNDEC</title>
+<link rel="stylesheet" href="styles.css">
+<script defer src="app.js"></script>
+</head>
+<body>
+<header class="course-head"><div class="head-inner">
+  <div class="course-identity"><span class="course-rule" aria-hidden="true"></span><div><strong>CURSO FUNDEC</strong><small>Caracterização de Estruturas Existentes para Apoio à Avaliação da Segurança Estrutural</small></div></div>
+  <div class="logos" aria-label="Entidades do curso"><img src="assets/fundec.png" alt="FUNDEC"><img src="assets/tecnico_lisboa.png" alt="Técnico Lisboa"></div>
+</div></header>
+<main class="container" id="app">
+ <div class="section-intro"><div><span class="kicker">LABORATÓRIO VIRTUAL · ALVENARIA ANTIGA</span><h1>Ensaios com macacos planos</h1><p>Simule a instrumentação, registe leituras e interprete os resultados de uma parede de alvenaria.</p></div><span class="pill">Dados sintéticos</span></div>
+ <nav class="tabs" aria-label="Selecionar o tipo de ensaio"><button type="button" id="tabSingle" class="tab active" aria-selected="true">Macaco plano simples <small>Estimativa da tensão instalada</small></button><button type="button" id="tabDouble" class="tab" aria-selected="false">Macacos planos duplos <small>Deformabilidade em compressão</small></button></nav>
+ <div class="top-grid">
+   <section class="card experiment"><div class="card-heading"><div><span class="kicker" id="testKicker">ENSAIO DE MACACO PLANO SIMPLES</span><h2 id="testHeading">Parede e instrumentação</h2></div><span class="status" id="status">Preparação</span></div>
+   <div class="wall-area"><svg id="wallSvg" viewBox="0 0 710 340" role="img" aria-label="Representação esquemática da parede, instrumentos e rasgos para macacos planos."><rect x="105" y="42" width="485" height="247" rx="3" fill="#d3d2cb"/><text x="355" y="162" text-anchor="middle" fill="#687782" font-size="15">A preparar o esquema</text></svg></div>
+   <p class="diagram-note" id="diagramNote">Corte e instrumentação esquemáticos, com amplificação gráfica das deformações.</p>
+   <div class="procedure" id="procedure"><button id="cutBtn" type="button" class="btn primary">1. Executar rasgo</button><button id="jackBtn" type="button" class="btn secondary" disabled>2. Inserir macaco</button><button id="restartBtn" type="button" class="btn quiet">Reiniciar ensaio</button></div>
+   <div class="feedback" id="statusMessage" role="status" aria-live="polite">Execute o rasgo para observar a alteração da distância entre os pontos de referência.</div>
+   </section>
+   <section class="card setup"><div class="card-heading"><div><span class="kicker">PARÂMETROS DO ENSAIO</span><h2>Configuração e aquisição</h2></div></div>
+    <label class="field">Tipologia de resposta simulada<select id="scenario"><option value="normal">Alvenaria de qualidade intermédia</option><option value="weak">Alvenaria de qualidade reduzida</option><option value="strong">Alvenaria de boa qualidade</option></select></label>
+    <div class="two-fields"><label class="field"><span>Coeficiente do macaco, K<sub>m</sub></span><input id="km" type="number" min="0.70" max="1.00" step="0.01" value="0.84"></label><label class="field"><span>Relação entre áreas, K<sub>a</sub></span><input id="ka" type="number" min="0.70" max="1.00" step="0.01" value="0.88"></label></div>
+    <div class="setup-explanation">K<sub>a</sub> = área do macaco / área média do rasgo. Os dois fatores são dados conhecidos neste exercício, não estimados pelo simulador.</div>
+    <div class="readout-grid"><div><small>Pressão hidráulica, p</small><strong id="pressureValue">0,00 <span>MPa</span></strong></div><div><small id="measuredLabel">Variação média dos pontos</small><strong id="measuredValue">—</strong></div></div>
+    <label class="pressure-caption" for="pressure">Ajustar pressão hidráulica <span id="maxPressureLabel">0 a 2,50 MPa</span></label><input type="range" id="pressure" min="0" max="2.5" step="0.025" value="0" disabled><div class="pressure-actions"><button id="saveBtn" type="button" class="btn primary" disabled>Registar leitura</button><button id="clearBtn" type="button" class="btn quiet">Limpar leituras</button></div>
+    <p class="field-note" id="modeNote">A pressão aplicada não coincide necessariamente com a tensão instalada na parede.</p>
+   </section>
+ </div>
+ <div class="bottom-grid"><section class="card graph-card"><div class="card-heading"><div><span class="kicker">RESULTADOS EXPERIMENTAIS</span><h2 id="plotTitle">Variação de distância e pressão</h2></div><span id="counter" class="count">0 leituras</span></div>
+   <div class="chart-frame"><svg id="plot" viewBox="0 0 720 350" role="img" aria-label="Gráfico interativo dos resultados do ensaio."><text x="360" y="170" text-anchor="middle" fill="#71808a">Registe leituras para construir o gráfico.</text></svg></div>
+   <div id="plotFootnote" class="plot-footnote">Uma leitura negativa significa aproximação dos pontos relativamente à geometria inicial.</div>
+   <div class="table-wrap"><table><thead id="tableHead"><tr><th>Leitura</th><th>p (MPa)</th><th>Δd médio (mm)</th></tr></thead><tbody id="tableBody"><tr><td colspan="3" class="empty">Ainda não existem leituras.</td></tr></tbody></table></div>
+   </section>
+  <section class="card assessment"><div class="card-heading"><div><span class="kicker">INTERPRETAÇÃO E VERIFICAÇÃO</span><h2 id="analysisTitle">Tensão instalada na alvenaria</h2></div></div>
+  <div id="singleAssessment"><p class="instruction">Registe leituras antes e depois de recuperar a distância inicial dos pontos de referência. Estime a pressão de restituição por interpolação e introduza a tensão correspondente.</p>
+  <label class="field"><span>Pressão de restituição estimada, p<sub>r</sub> (MPa)</span><input type="number" min="0" max="3" step="0.001" inputmode="decimal" id="studentPr" placeholder="Ex.: 1,050"></label>
+  <label class="field"><span>Tensão de compressão instalada, σ<sub>0</sub> (MPa)</span><input type="number" min="0" max="3" step="0.001" inputmode="decimal" id="studentSigma" placeholder="Ex.: 0,770"></label>
+  <button class="btn primary wide" id="checkSingle" type="button">Verificar cálculos</button>
+  <div class="check-result" id="singleFeedback" role="status" aria-live="polite">A verificação fica disponível após registar leituras que enquadrem o retorno a Δd = 0.</div>
+  </div>
+  <div id="doubleAssessment" hidden>
+    <p class="instruction">Realize patamares de carregamento, descarga e recarga. Compare três estimativas de rigidez obtidas em trechos diferentes da curva de tensão e deformação. As curvas representam acomodação inicial, um troço aproximadamente elástico e uma resposta progressivamente não linear. Os valores são calculados a partir das leituras sintéticas, não de propriedades previamente reveladas.</p>
+    <div class="sequence-help"><strong>Sequência sugerida de pressão (MPa)</strong><span>0 · 0,2 · 0,4 · 0,6 · 0,8 · 1,2 · 1,6 · 1,2 · 0,8 · 0,4 · 0,8 · 1,2 · 1,6 · 2,0 · 2,4 · 2,8 · 3,2</span><small>Introduza os patamares um a um. A sequência é apenas uma sugestão e pode ser alterada.</small></div>
+    <div class="modulus-tabs" role="group" aria-label="Módulo destacado no gráfico">
+      <button type="button" id="focusInitial" class="modulus-focus active" aria-pressed="true">E<sub>inicial</sub></button>
+      <button type="button" id="focusSecant" class="modulus-focus" aria-pressed="false">E<sub>sec</sub></button>
+      <button type="button" id="focusUR" class="modulus-focus" aria-pressed="false">E<sub>ur</sub></button>
+    </div>
+    <section class="modulus-group" aria-labelledby="initialTitle">
+      <h3 id="initialTitle"><span class="modulus-dot initial-dot"></span>1. Módulo inicial, E<sub>inicial</sub></h3>
+      <p>Declive entre dois patamares do <strong>primeiro carregamento</strong>, preferencialmente a baixa tensão. É uma aproximação experimental, não a tangente matemática em tensão nula.</p>
+      <div class="two-fields"><label class="field">Ponto A<select id="initialA"></select></label><label class="field">Ponto B<select id="initialB"></select></label></div>
+      <div class="derived" id="initialInterval">Selecione dois patamares do primeiro carregamento.</div>
+      <label class="field">E<sub>inicial</sub> estimado (GPa)<input type="number" id="studentInitial" min="0" max="50" step="0.001" inputmode="decimal" placeholder="Introduza o seu resultado"></label>
+      <div class="check-result" id="initialFeedback" role="status" aria-live="polite">Introduza o módulo calculado para verificar a resposta.</div>
+    </section>
+    <section class="modulus-group" aria-labelledby="secantTitle">
+      <h3 id="secantTitle"><span class="modulus-dot secant-dot"></span>2. Módulo secante, E<sub>sec</sub></h3>
+      <p>Declive da reta que liga a <strong>origem (0,0)</strong> a um ponto da envolvente de carregamento. Não corresponde, em geral, ao declive entre dois pontos arbitrários.</p>
+      <label class="field">Ponto da envolvente<select id="secantPoint"></select></label>
+      <div class="derived" id="secantInterval">Selecione um patamar com tensão positiva na envolvente.</div>
+      <label class="field">E<sub>sec</sub> estimado (GPa)<input type="number" id="studentSecant" min="0" max="50" step="0.001" inputmode="decimal" placeholder="Introduza o seu resultado"></label>
+      <div class="check-result" id="secantFeedback" role="status" aria-live="polite">Introduza o módulo calculado para verificar a resposta.</div>
+    </section>
+    <section class="modulus-group" aria-labelledby="urTitle">
+      <h3 id="urTitle"><span class="modulus-dot ur-dot"></span>3. Módulo de descarga ou recarga, E<sub>ur</sub></h3>
+      <p>Declive entre dois patamares do <strong>mesmo trecho contínuo</strong> de descarga ou recarga, sem atravessar uma inversão de sentido.</p>
+      <div class="two-fields"><label class="field">Ponto A<select id="urA"></select></label><label class="field">Ponto B<select id="urB"></select></label></div>
+      <div class="derived" id="urInterval">Registe uma descarga ou recarga com pelo menos dois patamares.</div>
+      <label class="field">E<sub>ur</sub> estimado (GPa)<input type="number" id="studentUR" min="0" max="50" step="0.001" inputmode="decimal" placeholder="Introduza o seu resultado"></label>
+      <div class="check-result" id="urFeedback" role="status" aria-live="polite">Introduza o módulo calculado para verificar a resposta.</div>
+    </section>
+    <button class="btn primary wide" id="checkDouble" type="button">Verificar os três módulos</button>
+    <div id="doubleFeedback" class="check-result" role="status" aria-live="polite">Registe leituras suficientes, selecione os intervalos e introduza os seus resultados.</div>
+    <div class="moduli-summary" id="moduliSummary" hidden></div>
+    <details class="reference-indices"><summary>Índices de referência para comparação (10%, 30% e 30 a 60%)</summary>
+      <div id="referenceIndicesResults"><p>Registe patamares de carregamento para obter estes índices.</p></div>
+      <p>Definições adotadas na Figura 12 de Arêde et al. (2026). A tensão de referência é o máximo observado nesta sessão; não corresponde necessariamente à resistência à compressão.</p>
+    </details>
+  </div>
+  <div class="science-note"><strong>Interpretação dos resultados</strong><p id="scienceNoteText">A tensão estimada corresponde à zona de alvenaria e às condições representadas no ensaio. Não constitui uma medida de toda a espessura de uma parede de múltiplos panos.</p></div>
+  </section></div>
+ <section class="card export-card"><div><span class="kicker">DOCUMENTAÇÃO</span><h2>Relatório do ensaio</h2><p>Inclui parâmetros, leituras, resultados e gráficos. O relatório pode ser guardado em PDF através da opção de impressão do navegador.</p></div><div class="export-right"><label class="field">Identificação do ensaio<input id="testName" maxlength="90" value="Ensaio virtual de alvenaria" aria-label="Identificação do ensaio"></label><div class="export-actions"><button class="btn secondary" id="csvBtn" type="button">Exportar CSV</button><button class="btn primary" id="reportBtn" type="button">Gerar relatório PDF</button></div></div></section>
+ <footer><span>CURSO FUNDEC · Técnico Lisboa</span><span>Simulador didático · Dados sintéticos · Modelo ilustrativo não calibrado a ensaios individuais</span></footer>
+ <section id="printSheet" class="print-sheet" aria-hidden="true"></section>
+</main>
+</body>
+</html>
