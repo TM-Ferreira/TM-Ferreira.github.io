@@ -24,6 +24,7 @@ The current semester listing is maintained on my [official Técnico profile](htt
 ### Resistência dos Materiais
 
 - [Interactive uniaxial tensile test simulator](https://tm-ferreira.github.io/teaching/ensaiotracao/)
+- [Simulador interativo de flexão composta](/teaching/flexao-composta/)
 
 ### Caracterização de Estruturas Existentes
 
