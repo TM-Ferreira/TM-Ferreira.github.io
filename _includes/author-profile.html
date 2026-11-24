@@ -65,6 +65,9 @@
       {% if author.scopus %}
         <li><a href="{{ author.scopus }}"><i class="ai ai-scopus ai-fw icon-pad-right"></i>Scopus</a></li>
       {% endif %}
+      {% if author.openalex %}
+        <li><a href="{{ author.openalex }}"><i class="fas fa-fw fa-globe icon-pad-right" aria-hidden="true"></i>OpenAlex</a></li>
+      {% endif %}
       {% if author.zenodo %}
         <li><a href="{{ author.zenodo }}"><i class="ai ai-zenodo ai-fw icon-pad-right" aria-hidden="true"></i>Zenodo</a></li>
       {% endif %}

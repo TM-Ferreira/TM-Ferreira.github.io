@@ -1,6 +1,7 @@
 ---
 permalink: /
 title: "Multi-hazard risk assessment, resilience and built heritage"
+browser_title: "Tiago Miguel Ferreira | Academic Website"
 author_profile: true
 redirect_from:
   - /about/
