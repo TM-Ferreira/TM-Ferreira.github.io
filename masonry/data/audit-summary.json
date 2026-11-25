@@ -1,0 +1,20 @@
+{
+  "source_records": 469,
+  "published_records": 460,
+  "excluded_records": 9,
+  "non_ta_typology": 6,
+  "exact_duplicate_copies": 2,
+  "negative_modulus_withheld": 1,
+  "missing_typology_retained": 6,
+  "repeated_identifier_groups": 9,
+  "numeric_format_flags": [
+    {
+      "SourceCSVRow": 276,
+      "AutomaticIdentifier": "Ave_TA10-Ado-CU_A8BC4",
+      "Disposition": "retained_with_flags",
+      "Reasons": "",
+      "ReviewFlags": "CHECK_NUMERIC_FORMAT_TestedPanelDimensions_thickness: 0.2. | SURROUNDING_WHITESPACE: trimmed in filters only"
+    }
+  ],
+  "source_md5": "c3e6ad528a71b7c26114d100fff03858"
+}

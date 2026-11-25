@@ -1,0 +1,470 @@
+﻿SourceCSVRow,AutomaticIdentifier,Disposition,Reasons,ReviewFlags
+2,Lis_TA1-Cal-MP-D_20467,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+3,Lis_TA1-Cal-MP-D_20468,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+4,Lis_TA1-Cal-MP-D_20469,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+5,Lis_TA1-Cal-MP-D_20470,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+6,Lis_TA1-Cal-MP-D_20471,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+7,Lis_TA1-Cal-MP-D_20472,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+8,Lis_TA1-Cal-MP-D_1F018,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+9,Lis_TA1-Ped-MP-D_1D77C,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+10,Lis_TA1-Ped-MP-D_103C4,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+11,Lis_TA1-Ped-MP-D_1705C,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+12,Lis_TA1-Ped-MP-D_A1B8,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+13,San_TA1-Ped-MP-D_18ED4,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+14,San_TA1-Ped-MP-D_75F8,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+15,San_TA1-Ped-MP-D_A280,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+16,Lis_TA1-Ped-MP-D_172B4,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+17,Lis_TA1-Ped-MP-D_33130,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+18,Lis_TA1-Ped-MP-D_21534,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+19,Lis_TA1-Ped-MP-D_B66C,retained_with_flags,,REPEATED_IDENTIFIER: distinct entries retained unless exact duplicate | SURROUNDING_WHITESPACE: trimmed in filters only
+20,Lis_TA1-Ped-MP-D_D9F8,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+21,Lis_TA1-Ped-MP-D_11558,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+22,Tom_TA1-Ped-MP-D_BC48,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+23,Tom_TA1-Ped-MP-D_E614,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+24,Tom_TA1-Ped-MP-D_9B78,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+25,Tom_TA1-Ped-MP-D_AFC8,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+26,Lis_TA1-Ped-MP-D_2DF8C,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+27,Lis_TA1-Ped-MP-D_2B624,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+28,Lis_TA1-Ped-MP-D_42108,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+29,Lis_TA7-Ped-MP-D_3C2E4,retained_with_flags,,MISSING_CrossSectionType | SURROUNDING_WHITESPACE: trimmed in filters only
+30,Lis_TA1-Tij-MP-D_1494C,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+31,Lis_TA1-Ped-MP-D_21B10,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+32,Lis_TA1-Ped-MP-D_34580,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+33,Lis_TA1-Ped-MP-D_2F828,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+34,Lis_TA1-Ped-MP-D_159B4,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+35,Lis_TA1-Ped-MP-D_23FC8,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+36,Lis_TA1-Ped-MP-D_315D8,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+37,Lis_TA1-Ped-MP-D_1A964,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+38,Lis_TA1-Ped-MP-D_29FE0,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+39,Lis_TA1-Ped-MP-D_17570,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+40,Lis_TA1-Ped-MP-D_23410,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+41,Lis_TA7-Ped-MP-D_39E2C,retained_with_flags,,MISSING_CrossSectionType | SURROUNDING_WHITESPACE: trimmed in filters only
+42,Lis_TA1-Tij-MP-D_D868,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+43,Lis_TA1-Ped-MP-D_1FAA4,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+44,Lis_TA1-Ped-MP-D_74CC,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+45,Lis_TA1-Ped-MP-D_ED80,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+46,Lis_TA1-Ped-MP-D_F424,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+47,Lis_TA1-Ped-MP-D_46884,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+48,Lis_TA1-Ped-MP-D_2899C,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+49,Lis_TA1-Ped-MP-D_2178C,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+50,Lis_TA1-Ped-MP-D_14F28,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+51,Lis_TA1-Ped-MP-D_10CC0,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+52,Lis_TA1-Ped-MP-D_191F4,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+53,Lis_TA1-Ped-MP-D_17B4C,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+54,Alg_TA1-Ped-MP-D_245A4,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+55,Alg_TA1-Ped-MP-D_35E8,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+56,Alg_TA1-Ped-MP-D_7FBC,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+57,Alg_TA1-Ped-MP-D_1B9CC,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+58,Alg_TA1-Ped-MP-D_5848,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+59,Alg_TA1-Ped-MP-D_1BBC,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+60,Alg_TA1-Ped-MP-D_CB84,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+61,Alg_TA1-Ped-MP-D_15F90,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+62,Alg_TA1-Ped-MP-D_19384,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+63,Lis_TA1-Ped-MP-D_80E8,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+64,Lis_TA1-Ped-MP-D_275B0,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+65,Lis_TA1-Ped-MP-D_9664,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+66,Lis_TA1-Ped-MP-D_175D4,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+67,Lis_TA1-Ped-MP-D_B6D0,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+68,Lis_TA7-Ped-MP-D_48A80,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+69,Lis_TA1-Tij-MP-D_8FC,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+70,Lis_TA1-Ped-MP-D_D160,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+71,Lis_TA1-Ped-MP-D_684C,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+72,Lis_TA1-Ped-MP-D_4BBB8,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+73,Lis_TA1-Ped-MP-D_5C30,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+74,Lis_TA1-Ped-MP-D_D3B8,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+75,Lis_TA1-Ped-MP-D_B66C,retained_with_flags,,REPEATED_IDENTIFIER: distinct entries retained unless exact duplicate | SURROUNDING_WHITESPACE: trimmed in filters only
+76,Lis_TA1-Ped-MP-D_B8C4,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+77,Lis_TA1-Ped-MP-D_96C8,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+78,Lis_TA1-Ped-MP-D_247FC,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+79,Lis_TA1-Ped-MP-D_B478,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+80,Lis_TA1-Ped-MP-D_BDD8,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+81,Lis_TA1-Ped-MP-D_10680,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+82,Lis_TA1-Ped-MP-D_19DAC,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+83,Lis_TA1-Ped-MP-D_B158,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+84,Lis_TA1-Ped-MP-D_17A20,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+85,Lis_TA1-Ped-MP-D_6EF0,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+86,Lis_TA1-Ped-MP-D_CC4C,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+87,Lis_TA1-Ped-MP-D_1B328,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+88,Lis_TA1-Ped-MP-D_B220,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+89,Lis_TA1-Ped-MP-D_927C,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+90,Lis_TA1-Ped-MP-D_6F54,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+91,Lis_TA1-Ped-MP-D_F938,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+92,Lis_TA1-Ped-MP-D_1AAF4,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+93,Lis_TA1-Ped-MP-D_4EE8,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+94,Lis_TA1-Ped-MP-D_E100,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+95,Lis_TA1-Ped-MP-D_13754,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+96,Lis_TA1-Ped-MP-D_25350,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+97,Lis_TA1-Ped-MP-D_4F1A0,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+98,Lis_TA1-Ped-MP-D_3B27C,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+99,Lis_TA1-Ped-MP-D_14A78,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+100,Set_TA1-Ped-MP-D_A0F0,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+101,Set_TA1-Ped-MP-D_16184,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+102,Lis_TA1-Ped-MP-D_20918,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+103,Lis_TA1-Ped-MP-D_14ADC,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+104,Lis_TA1-Ped-MP-D_26098,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+105,Lis_TA1-Ped-MP-D_1DF4C,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+106,Via_TA1-Gra-S-D_18A88,retained,,
+107,The_TA1-Xis-S-D_84D0,retained_with_flags,,MISSING_OR_INVALID_COORDINATES
+108,The_TA1-Xis-S-D_130B0,retained_with_flags,,MISSING_OR_INVALID_COORDINATES
+109,Lei_TA1-Cal-S-D_412F8,retained,,
+110,Lei_TA1-Cal-S-D_280A0,retained,,
+111,Lei_TA1-Cal-S-D_23668,retained_with_flags,,REPEATED_IDENTIFIER: distinct entries retained unless exact duplicate
+112,Lei_TA1-Cal-S-D_23668,retained_with_flags,,REPEATED_IDENTIFIER: distinct entries retained unless exact duplicate
+113,Lei_TA1-Cal-S-D_29A04,retained,,
+114,Vis_TA1-Gra-MP-D_BDD8,retained,,
+115,Vis_TA1-Gra-MP-D_14564,retained,,
+116,Vis_TA1-Gra-MP-D_17FFC,retained,,
+117,Mec_TA1---MP-D_1DECA,retained_with_flags,,MISSING_UnitType | MISSING_MortarType
+118,Mec_TA1---MP-D_E6BB,retained_with_flags,,MISSING_UnitType | MISSING_MortarType
+119,Mec_TA1---MP-D_64F44,retained_with_flags,,MISSING_UnitType | MISSING_MortarType
+120,Mec_TA1---MP-D_8B58,retained_with_flags,,MISSING_UnitType | MISSING_MortarType
+121,Bra_TA1-Xis-MP-D_7576,retained_with_flags,,MISSING_MortarType
+122,Bra_TA1-Xis-MP-D_EAAF,retained_with_flags,,MISSING_MortarType
+123,Bra_TA1-Xis-MP-D_1252A,retained_with_flags,,MISSING_MortarType
+124,Mec_TA1-Cal-MP-D_E484,retained,,
+125,Mec_TA1-Cal-MP-D_A453,retained,,
+126,Mec_TA1-Cal-MP-D_61D7,retained,,
+127,In _TA1-Cal-MP-D_13349,retained,,
+128,Coi_TA1-Cal-MP-D_F473,retained,,
+129,Coi_TA1-Cal-MP-D_1E697,retained,,
+130,Coi_TA1-Cal-MP-D_2980F,retained,,
+131,Coi_TA1-Cal-MP-D_3EB4,retained,,
+132,Coi_TA1-Cal-MP-D_3132,retained,,
+133,Coi_TA1-Cal-CU_3C5,retained,,
+134,Exp_TA1-Cal-CU_31D,retained,,
+135,Por_TA1-Gra-CU_768B,retained,,
+136,Por_TA1-Gra-CU_6734,retained,,
+137,Por_TA1-Gra-CU_7E9C,retained,,
+138,Por_TA1-Gra-CU_476E,retained,,
+139,Por_TA1-Gra-CU_7291,retained,,
+140,Por_TA1-Gra-CU_479C,retained,,
+141,Sei_TA1-Cal-CU_1AC73,retained,,
+142,Sei_TA1-Cal-CU_9F,retained,,
+143,Sei_TA1-Cal-CU_1B03D,retained,,
+144,Sei_TA1-Cal-CU_29925,retained,,
+145,Sei_TA1-Cal-CU_14B3C,retained,,
+146,Rub_TA1-Cal-CU_9FEC,retained,,
+147,Rub_TA1-Cal-CU_6879,retained,,
+148,Rub_TA1-Cal-CU_44D4,retained,,
+149,The_TA1-Xis-CU_5250,retained_with_flags,,MISSING_OR_INVALID_COORDINATES
+150,The_TA1-Xis-CU_562E,retained_with_flags,,MISSING_OR_INVALID_COORDINATES
+151,Exp_TA1-Cal-CD_9806,retained_with_flags,,MISSING_OR_INVALID_COORDINATES
+152,Exp_TA1-Cal-CD_16A9,retained_with_flags,,MISSING_OR_INVALID_COORDINATES
+153,Exp_TA1-Cal-CD_2455,retained_with_flags,,MISSING_OR_INVALID_COORDINATES
+154,Exp_TA1-Cal-CD_627F,retained_with_flags,,MISSING_OR_INVALID_COORDINATES
+155,Sei_TA1-Cal-CD_21,retained,,
+156,Sei_TA1-Cal-CD_17,retained,,
+157,Sei_TA1-Cal-CD_20,retained,,
+158,Via_TA2-Gra-MP-D_26160,retained_with_flags,,MISSING_MortarType
+159,Por_TA2-Gra-MP-D_1D4C0,retained_with_flags,,MISSING_MortarType
+160,Por_TA2-Gra-MP-D_28230,retained,,
+161,Por_TA2-Gra-MP-D_25DDC,retained,,
+162,Via_TA2-Gra-MP-D_2AF80,retained,,
+163,Via_TA2-Gra-MP-D_17AE8,retained,,
+164,Coi_TA2-Cal-MP-D_DBBEF,retained,,
+165,Coi_TA2-Cal-MP-D_3AED,retained,,
+166,Coi_TA2-Cal-MP-D_8935,retained,,
+167,Coi_TA2-Cal-MP-D_E6DC,retained,,
+168,Coi_TA2-Cal-MP-D_D8CC,retained,,
+169,Coi_TA2-Cal-MP-D_6DCE,retained,,
+170,Coi_TA2-Cal-MP-D_CF70,retained,,
+171,Coi_TA2-Cal-MP-D_EEB6,retained,,
+172,Coi_TA2-Cal-MP-D_2894B,retained,,
+173,Coi_TA2-Cal-MP-D_2336A,retained,,
+174,In-_TA2-Cal-CC_12,retained,,
+175,In-_TA2-Cal-CC_11,retained,,
+176,Out_TA3-Gra-MP-D_50334,retained,,
+177,Car_TA3-Gra-MP-D_50910,retained,,
+178,Car_TA3-Gra-MP-D_6CE30,retained,,
+179,Car_TA3-Gra-MP-D_5F370,retained,,
+180,Car_TA3-Gra-MP-D_9D3A0,retained,,
+181,Por_TA3-Gra-MP-D_4EBC4,retained,,
+182,Por_TA3-Gra-MP-D_30700,retained,,
+183,Por_TA3-Gra-MP-D_4B5DC,retained,,
+184,Por_TA3-Gra-MP-D_2CAD8,retained_with_flags,,MISSING_MortarType
+185,Via_TA3-Gra-MP-D_1D0D8,retained,,
+186,Por_TA3-Cal-MP-D_4B5DC,retained_with_flags,,MISSING_MortarType
+187,Por_TA3-Gra-MP-D_15F90,retained_with_flags,,REPEATED_IDENTIFIER: distinct entries retained unless exact duplicate | MISSING_OR_INVALID_COORDINATES
+188,Por_TA3-Gra-MP-D_15F90,retained_with_flags,,REPEATED_IDENTIFIER: distinct entries retained unless exact duplicate | MISSING_OR_INVALID_COORDINATES
+189,Por_TA3-Gra-MP-D_15F90,retained_with_flags,,REPEATED_IDENTIFIER: distinct entries retained unless exact duplicate | MISSING_OR_INVALID_COORDINATES
+190,Car_TA3-Gra-MP-D_3E80,retained_with_flags,,MISSING_MortarType
+191,Car_TA3-Gra-MP-D_5208,retained_with_flags,,MISSING_MortarType
+192,Lis_TA3-Ped-MP-D_3E5AC,retained,,
+193,Lis_TA3-Ped-MP-D_5C1A2,retained,,
+194,Bra_TA3-Xis-MP-D_35BC4,retained_with_flags,,MISSING_MortarType
+195,Mec_TA3-Cal-MP-D_30DFD,retained,,
+196,Por_TA3-Gra-CC_237,retained,,
+197,Por_TA3-Gra-CC_182,retained,,
+198,In-_TA3-Cal-CC_1C,retained,,
+199,In-_TA3-Cal-CC_13,retained,,
+200,Por_TA3-Gra-CD_7E,retained,,
+201,Por_TA5-Gra-CD_7E,retained_with_flags,,REPEATED_IDENTIFIER: distinct entries retained unless exact duplicate
+202,Por_TA5-Gra-CD_7E,excluded,EXACT_DUPLICATE: all 31 source fields identical to CSV row 201; first occurrence retained,REPEATED_IDENTIFIER: distinct entries retained unless exact duplicate
+203,Por_TA5-Gra-CD_7E,excluded,EXACT_DUPLICATE: all 31 source fields identical to CSV row 201; first occurrence retained,REPEATED_IDENTIFIER: distinct entries retained unless exact duplicate
+204,Out_TA6-Gra-S-D_6476C,retained,,
+205,Inf_TA6-Gra-S-D_48440,retained,,
+206,Inf_TA6-Gra-S-D_543A8,retained,,
+207,Car_TA6-Gra-S-D_53408,retained,,
+208,Car_TA6-Gra-S-D_118C30,retained,,
+209,Car_TA6-Gra-S-D_86858,retained,,
+210,Car_TA6-Gra-S-D_54F60,retained,,
+211,Por_TA6-Gra-S-D_5CEB8,retained,,
+212,Por_TA6-Gra-S-D_61378,retained,,
+213,Por_TA6-Gra-S-D_BB1C0,retained,,
+214,Por_TA6-Gra-S-D_6E0F0,retained,,
+215,Por_TA6-Gra-S-D_4630C,retained,,
+216,Por_TA6---S-D_612B0,retained_with_flags,,MISSING_UnitType | MISSING_MortarType
+217,Gui_TA6---S-D_2F1E8,retained_with_flags,,MISSING_UnitType | MISSING_MortarType | MISSING_OR_INVALID_COORDINATES
+218,Vis_TA6---S-D_612B0,retained_with_flags,,MISSING_UnitType | MISSING_MortarType
+219,Via_TA6---S-D_38270,retained_with_flags,,MISSING_UnitType | MISSING_MortarType
+220,Via_TA6---S-D_36204,retained_with_flags,,MISSING_UnitType | MISSING_MortarType
+221,Via_TA6-Gra-S-D_11D28,retained,,
+222,Lis_TA6-Ped-MP-D_7B60C,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+223,In-_TA6-Gra-CC_10,retained_with_flags,,MISSING_OR_INVALID_COORDINATES
+224,In-_TA6-Gra-CC_1C,retained_with_flags,,MISSING_OR_INVALID_COORDINATES
+225,In-_TA6-Gra-CC_27,retained_with_flags,,MISSING_OR_INVALID_COORDINATES
+226,Via_TA2-Gra-S-D_26160,retained_with_flags,,MISSING_MortarType | MISSING_ReferenceSource
+227,Por_TA2-Gra-S-D_1D4C0,retained_with_flags,,MISSING_MortarType | MISSING_ReferenceSource
+228,Por_TA2-Gra-S-D_28230,retained_with_flags,,MISSING_ReferenceSource
+229,Por_TA2-Gra-S-D_25DDC,retained_with_flags,,MISSING_ReferenceSource
+230,Via_TA2-Gra-S-D_2AF80,retained_with_flags,,MISSING_ReferenceSource
+231,Via_TA2-Gra-S-D_17AE8,retained_with_flags,,MISSING_ReferenceSource
+232,Out_TA3-Gra-S-D_50334,retained_with_flags,,MISSING_ReferenceSource
+233,Alg_TA1-Tai-CC_6BE4,retained_with_flags,,MISSING_MortarType | SURROUNDING_WHITESPACE: trimmed in filters only
+234,Ale_TA11-Tai-CU_34050,retained_with_flags,,MISSING_MortarType | SURROUNDING_WHITESPACE: trimmed in filters only
+235,Ale_TA11-Tai-CU_AD889,retained_with_flags,,MISSING_MortarType | SURROUNDING_WHITESPACE: trimmed in filters only
+236,Ale_TA11-Tai-CU_E724D,retained_with_flags,,MISSING_MortarType | SURROUNDING_WHITESPACE: trimmed in filters only
+237,Ale_TA11-Tai-CU_1E600,retained_with_flags,,MISSING_MortarType | SURROUNDING_WHITESPACE: trimmed in filters only
+238,Ale_TA11-Tai-CU_31835,retained_with_flags,,MISSING_MortarType | SURROUNDING_WHITESPACE: trimmed in filters only
+239,Ale_TA11-Tai-CD_EB49D,retained_with_flags,,MISSING_MortarType | SURROUNDING_WHITESPACE: trimmed in filters only
+240,Nor_TA1-Tai-CU_2E95,retained_with_flags,,MISSING_MortarType | SURROUNDING_WHITESPACE: trimmed in filters only
+241,Nor_TA1-Tai-CU_2698,retained_with_flags,,MISSING_MortarType | SURROUNDING_WHITESPACE: trimmed in filters only
+242,Nor_TA1-Tai-CU_224D,retained_with_flags,,MISSING_MortarType | SURROUNDING_WHITESPACE: trimmed in filters only
+243,Nor_TA1-Tai-CU_5E6D,retained_with_flags,,MISSING_MortarType | SURROUNDING_WHITESPACE: trimmed in filters only
+244,Nor_TA1-Tai-CU_1BF8C,retained_with_flags,,MISSING_MortarType | SURROUNDING_WHITESPACE: trimmed in filters only
+245,Nor_TA1-Tai-CU_264DD,retained_with_flags,,MISSING_MortarType | SURROUNDING_WHITESPACE: trimmed in filters only
+246,Nor_TA1-Tai-CU_45CD5,retained_with_flags,,MISSING_MortarType | SURROUNDING_WHITESPACE: trimmed in filters only
+247,Nor_TA1-Tai-CD_E10E,retained_with_flags,,MISSING_MortarType | SURROUNDING_WHITESPACE: trimmed in filters only
+248,Nor_TA1-Tai-CD_C552,retained_with_flags,,MISSING_MortarType | SURROUNDING_WHITESPACE: trimmed in filters only
+249,Nor_TA1-Tai-CD_F241,retained_with_flags,,MISSING_MortarType | SURROUNDING_WHITESPACE: trimmed in filters only
+250,Gui_TA10-Out-CU_D7C2F,retained_with_flags,,MISSING_OR_INVALID_COORDINATES | SURROUNDING_WHITESPACE: trimmed in filters only
+251,Gui_TA10-Out-CU_3E3CF,retained_with_flags,,MISSING_OR_INVALID_COORDINATES | SURROUNDING_WHITESPACE: trimmed in filters only
+252,Gui_TA10-Out-CU_46DF8,retained_with_flags,,MISSING_OR_INVALID_COORDINATES | SURROUNDING_WHITESPACE: trimmed in filters only
+253,Gui_TA10-Out-CU_4FC9B,retained_with_flags,,MISSING_OR_INVALID_COORDINATES | SURROUNDING_WHITESPACE: trimmed in filters only
+254,Gui_TA10-Out-CU_59CC8,retained_with_flags,,MISSING_OR_INVALID_COORDINATES | SURROUNDING_WHITESPACE: trimmed in filters only
+255,Gui_TA10-Out-CU_08EA9,retained_with_flags,,MISSING_OR_INVALID_COORDINATES | SURROUNDING_WHITESPACE: trimmed in filters only
+256,Gui_TA10-Out-CU_92E6B,retained_with_flags,,MISSING_OR_INVALID_COORDINATES | SURROUNDING_WHITESPACE: trimmed in filters only
+257,Gui_TA10-Out-CU_AD3C7,retained_with_flags,,MISSING_OR_INVALID_COORDINATES | SURROUNDING_WHITESPACE: trimmed in filters only
+258,Bra_TA11-Tai-CU_A9DC7,retained_with_flags,,MISSING_MortarType | SURROUNDING_WHITESPACE: trimmed in filters only
+259,Bra_TA11-Tai-S-D_DAD9A,retained_with_flags,,MISSING_MortarType | SURROUNDING_WHITESPACE: trimmed in filters only
+260,Ale_TA11-Tai-CU_8464E,retained_with_flags,,MISSING_MortarType | SURROUNDING_WHITESPACE: trimmed in filters only
+261,Ale_TA11-Tai-CD_CC2B0,retained_with_flags,,MISSING_MortarType | SURROUNDING_WHITESPACE: trimmed in filters only
+262,Ale_TA1-Tai-S-I_7D4,retained_with_flags,,REPEATED_IDENTIFIER: distinct entries retained unless exact duplicate | MISSING_MortarType | SURROUNDING_WHITESPACE: trimmed in filters only
+263,Ale_TA1-Tai-S-I_7D4,retained_with_flags,,REPEATED_IDENTIFIER: distinct entries retained unless exact duplicate | MISSING_MortarType | SURROUNDING_WHITESPACE: trimmed in filters only
+264,Ale_TA11-Tai-CU_AF318,retained_with_flags,,MISSING_MortarType | MISSING_ReferenceSource
+265,Ale_TA11-Tai-CU_606B0,retained_with_flags,,MISSING_MortarType
+266,Ale_TA11-Tai-CD_77817,retained_with_flags,,MISSING_MortarType
+267,Ale_TA1-Tai-CD_7F6,retained_with_flags,,REPEATED_IDENTIFIER: distinct entries retained unless exact duplicate | MISSING_MortarType
+268,Ale_TA1-Tai-CD_7F6,retained_with_flags,,REPEATED_IDENTIFIER: distinct entries retained unless exact duplicate | MISSING_MortarType
+269,Ale_TA1-Tai-CC_7BD,retained_with_flags,,MISSING_MortarType | SURROUNDING_WHITESPACE: trimmed in filters only
+270,Vil_TA10-Out-CU_1FE30,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+271,Nor_TA10-Out-CU_D656,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+272,Vil_TA10-Out-CU_A3D75,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+273,Vil_TA10-Out-CU_EFF08,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+274,Ale_TA11-Tai-CU_CD99D,retained_with_flags,,MISSING_MortarType
+275,Nor_TA1-Gra-CU_85C30,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+276,Ave_TA10-Ado-CU_A8BC4,retained_with_flags,,CHECK_NUMERIC_FORMAT_TestedPanelDimensions_thickness: 0.2. | SURROUNDING_WHITESPACE: trimmed in filters only
+277,Lis_TA1-Cal-_7E2F,retained_with_flags,,MISSING_CrossSectionType | SURROUNDING_WHITESPACE: trimmed in filters only
+278,Lis_TA1-Cal-NAN_2B252,retained_with_flags,,MISSING_CrossSectionType | SURROUNDING_WHITESPACE: trimmed in filters only
+279,Alg_NAN-Cal-NAN_00A0D,retained_with_flags,,MISSING_CrossSectionType | SURROUNDING_WHITESPACE: trimmed in filters only
+280,Alg_NAN-Cal-CU_0DC70,retained_with_flags,,MISSING_CrossSectionType | SURROUNDING_WHITESPACE: trimmed in filters only
+281,Alg_NAN-Cal-CU_9A80E,retained_with_flags,,MISSING_CrossSectionType | SURROUNDING_WHITESPACE: trimmed in filters only
+282,Alg_NAN-Cal-CU_5F34B,retained_with_flags,,MISSING_CrossSectionType | SURROUNDING_WHITESPACE: trimmed in filters only
+283,Nor_TA1-Gra-CC_5E46E,retained_with_flags,,MISSING_CrossSectionType
+284,Nor_TA3-Gra-CU_A9F90,retained_with_flags,,MISSING_OR_INVALID_COORDINATES | SURROUNDING_WHITESPACE: trimmed in filters only
+285,Nor_TA2-Gra-CU_76456,retained_with_flags,,MISSING_OR_INVALID_COORDINATES | SURROUNDING_WHITESPACE: trimmed in filters only
+286,Nor_TA1-Gra-CU_51A41,retained_with_flags,,MISSING_OR_INVALID_COORDINATES | SURROUNDING_WHITESPACE: trimmed in filters only
+287,Nor_TA1-Gra-CU_C02C8,retained_with_flags,,MISSING_OR_INVALID_COORDINATES | SURROUNDING_WHITESPACE: trimmed in filters only
+288,Por_TA2-Gra-CU_46E20,retained_with_flags,,MISSING_OR_INVALID_COORDINATES | SURROUNDING_WHITESPACE: trimmed in filters only
+289,Nor_NAN-Gra-NAN_BD205,retained_with_flags,,MISSING_CrossSectionType | MISSING_MortarType
+290,Nor_NAN-Gra-NAN_B3F46,excluded,"NON_TA_TYPOLOGY: source value Pedra Granito is outside the TA1–TA11 typology vocabulary; excluded from this masonry-typology explorer, not declared scientifically invalid",MISSING_MortarType
+291,Nor_-Gra-_DC,retained,,
+292,Nor_-Gra-_119F4,retained_with_flags,,MISSING_MortarType
+293,-_BLOCO TIJOLO-Tij-NAN_F9AC5,excluded,"NON_TA_TYPOLOGY: source value Bloco Tijolo is outside the TA1–TA11 typology vocabulary; excluded from this masonry-typology explorer, not declared scientifically invalid",MISSING_CrossSectionType | MISSING_MortarType | MISSING_OR_INVALID_COORDINATES
+294,-_BLOCO TIJOLO-Tij-NAN_96041,excluded,"NON_TA_TYPOLOGY: source value Bloco Tijolo is outside the TA1–TA11 typology vocabulary; excluded from this masonry-typology explorer, not declared scientifically invalid",MISSING_CrossSectionType | MISSING_OR_INVALID_COORDINATES
+295,-_BLOCO TIJOLO-Tij-NAN_FE0FD,excluded,"NON_TA_TYPOLOGY: source value Bloco Tijolo is outside the TA1–TA11 typology vocabulary; excluded from this masonry-typology explorer, not declared scientifically invalid",MISSING_CrossSectionType | MISSING_OR_INVALID_COORDINATES
+296,Ale_BLOCO TIJOLO-Tij-NAN_F46CB,excluded,"NON_TA_TYPOLOGY: source value Bloco Tijolo is outside the TA1–TA11 typology vocabulary; excluded from this masonry-typology explorer, not declared scientifically invalid",MISSING_CrossSectionType | MISSING_MortarType | SURROUNDING_WHITESPACE: trimmed in filters only
+297,Ale_BLOCO TIJOLO-Tij-NAN_9B9C5,excluded,"NON_TA_TYPOLOGY: source value Bloco Tijolo is outside the TA1–TA11 typology vocabulary; excluded from this masonry-typology explorer, not declared scientifically invalid",MISSING_CrossSectionType | MISSING_MortarType | SURROUNDING_WHITESPACE: trimmed in filters only
+298,-_TA8-Tij-_1B268,retained_with_flags,,REPEATED_IDENTIFIER: distinct entries retained unless exact duplicate | MISSING_OR_INVALID_COORDINATES
+299,-_TA8-Tij-_1B268,retained_with_flags,,REPEATED_IDENTIFIER: distinct entries retained unless exact duplicate | MISSING_OR_INVALID_COORDINATES
+300,Ave_TA10-Ado-CU_212,retained,,
+301,Ave_TA10-Ado-CU_140,retained_with_flags,,REPEATED_IDENTIFIER: distinct entries retained unless exact duplicate
+302,Ave_TA10-Ado-CU_C8,retained,,
+303,Ave_TA10-Ado-CU_50,retained,,
+304,Ave_TA10-Ado-CU_1D6,retained,,
+305,Ave_TA10-Ado-CU_140,retained_with_flags,,REPEATED_IDENTIFIER: distinct entries retained unless exact duplicate
+306,Ave_TA10-Ado-CU_136,retained,,
+307,Ave_TA10-Ado-CU_172,retained,,
+308,Ave_TA10-Ado-CU_1FD,retained,,
+309,Ave_TA10-Ado-CU_A7,retained_with_flags,,MISSING_CrossSectionType | MISSING_MortarType | SURROUNDING_WHITESPACE: trimmed in filters only
+310,Ave_TA10-Ado-CU_81,retained_with_flags,,MISSING_MortarType | SURROUNDING_WHITESPACE: trimmed in filters only
+311,Ave_TA10-Ado-_7B70,retained_with_flags,,MISSING_TestType | MISSING_MortarType | SURROUNDING_WHITESPACE: trimmed in filters only
+312,Ave_TA10-Ado-_2774,retained_with_flags,,MISSING_TestType | MISSING_CrossSectionType | MISSING_MortarType | SURROUNDING_WHITESPACE: trimmed in filters only
+313,Ave_TA10-Ado-_21583,retained,,
+314,Ave_TA10-Ado-_1A872,retained_with_flags,,MISSING_MortarType
+315,Ave_TA10-Ado-_21532,retained,,
+316,Ave_TA10-Ado-_1A843,retained_with_flags,,MISSING_MortarType
+317,Ave_TA10-Ado-CU_96,retained_with_flags,,MISSING_CrossSectionType | MISSING_MortarType
+318,Ave_TA10-Ado-CU_31,retained_with_flags,,MISSING_MortarType | SURROUNDING_WHITESPACE: trimmed in filters only
+319,Ave_TA10-Ado-CD_FA3,retained_with_flags,,MISSING_CrossSectionType | MISSING_MortarType
+320,Ave_TA10-Ado-CU_68D,retained_with_flags,,MISSING_CrossSectionType | MISSING_MortarType
+321,Ave_TA10-Ado-CU_612,retained_with_flags,,MISSING_CrossSectionType | MISSING_MortarType
+322,Ave_TA10-Ado-CU_127D5,retained_with_flags,,MISSING_CrossSectionType | SURROUNDING_WHITESPACE: trimmed in filters only
+323,Ave_TA10-Ado-CD_A157,retained_with_flags,,MISSING_CrossSectionType
+324,Ave_TA10-Ado-CU_5879,retained_with_flags,,MISSING_CrossSectionType | MISSING_MortarType
+325,Ave_TA10-Ado-CU_39E9,retained_with_flags,,MISSING_CrossSectionType | MISSING_MortarType
+326,_-Gra-CC_169284,retained_with_flags,,MISSING_MortarType
+327,_-Gra-CC_C2F7E,retained_with_flags,,MISSING_MortarType
+328,_-Gra-CC_71EA8,retained,,
+329,_-Gra-CC_DB574,retained,,
+330,Ave_TA10-Ado-_1B188F,retained_with_flags,,MISSING_TestType
+331,Alg_TA1-Tai-_D1F6,retained_with_flags,,MISSING_CrossSectionType | MISSING_MortarType
+332,Ale_TA1-Tai-_646C,retained_with_flags,,MISSING_MortarType | MISSING_OR_INVALID_COORDINATES | SURROUNDING_WHITESPACE: trimmed in filters only
+333,Ale_TA1-Tai-_647C,retained_with_flags,,MISSING_MortarType | MISSING_OR_INVALID_COORDINATES | SURROUNDING_WHITESPACE: trimmed in filters only
+334,_TA1-Tai-CU_D82E,retained_with_flags,,MISSING_CrossSectionType | MISSING_MortarType | MISSING_OR_INVALID_COORDINATES
+335,_TA1-Tai-CD_16D0D,retained_with_flags,,MISSING_CrossSectionType | MISSING_MortarType | MISSING_OR_INVALID_COORDINATES
+336,Aço_TA1-Bas-CU_2F33,retained_with_flags,,MISSING_OR_INVALID_COORDINATES | SURROUNDING_WHITESPACE: trimmed in filters only
+337,Aço_TA1-Bas-CU_119AF,retained_with_flags,,MISSING_OR_INVALID_COORDINATES | SURROUNDING_WHITESPACE: trimmed in filters only
+338,Aço_TA1-Bas-CU_1B5E5,retained_with_flags,,MISSING_OR_INVALID_COORDINATES | SURROUNDING_WHITESPACE: trimmed in filters only
+339,Alg_TA1-Out-CU_1A3,retained_with_flags,,MISSING_CrossSectionType | MISSING_MortarType | SURROUNDING_WHITESPACE: trimmed in filters only
+340,Alg_TA1-Tai-CU_6779,retained_with_flags,,MISSING_MortarType | SURROUNDING_WHITESPACE: trimmed in filters only
+341,Alg_TA1-Cal-MP-D_745D,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+342,Alg_TA1-Cal-MP-D_D991,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+343,Alg_TA1-Cal-MP-D_EB91,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+344,Alg_TA1-Cal-MP-D_57DB,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+345,Alg_TA1-Out-MP-D_83C2,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+346,Alg_TA1-Out-MP-D_10646,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+347,Alg_TA1-Out-MP-D_D052,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+348,Alg_TA1-Out-MP-D_18F78,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+349,Alg_TA1-Out-MP-D_15EF1,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+350,Alg_TA1-Out-MP-D_CD9D,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+351,Alg_TA1-Out-MP-D_13DC5,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+352,Alg_TA1-Out-MP-D_12DD5,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+353,Alg_TA1-Out-MP-D_E339,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+354,Alg_TAA-Cim-CC_85997,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+355,Alg_TAA9-Cim-CC_23,retained_with_flags,,SURROUNDING_WHITESPACE: trimmed in filters only
+356,Mat_TA7-Tij-MP-D_AAFBE,retained_with_flags,,MISSING_CrossSectionType
+357,Mat_TA7-Tij-MP-D_61C42,retained_with_flags,,MISSING_CrossSectionType
+358,Coi_TA8-Tij-MP-D_72472,retained_with_flags,,MISSING_CrossSectionType
+359,Coi_TA8-Tij-MP-D_1B5C5,retained_with_flags,,MISSING_CrossSectionType
+360,Vil_TA2-Gra-MP-D_B41B,retained,,
+361,Vil_-Gra-MP-D_FFFFFA770E,excluded,"NEGATIVE_ELASTIC_MODULUS: EstaticE_MPa = -3630 is not usable as a positive material stiffness parameter; withheld pending source confirmation, not corrected",MISSING_TYPOLOGY | NEGATIVE_VALUE_EstaticE_MPa: -3630 | SURROUNDING_WHITESPACE: trimmed in filters only
+362,Vil_TA2-Gra-MP-D_1CE390,retained,,
+363,Vil_TA2-Gra-MP-D_7975,retained,,
+364,Vil_TA2-Gra-MP-D_11869C3,retained,,
+365,Vil_TA2-Gra-MP-D_111C8,retained,,
+366,Vil_TA2-Gra-MP-D_1F0645,retained,,
+367,Vil_TA2-Gra-MP-D_3EDB,retained,,
+368,Pen_-Gra-MP-D_833,retained_with_flags,,MISSING_TYPOLOGY | MISSING_CrossSectionType
+369,Pen_-Gra-MP-D_4E7F,retained_with_flags,,MISSING_TYPOLOGY | MISSING_CrossSectionType
+370,Coi_TA1-Cal-MP-D_2A8CB,retained_with_flags,,MISSING_CrossSectionType
+371,Lis_TA3-Cal-MP-D_23582A,retained_with_flags,,MISSING_CrossSectionType | MISSING_MortarType
+372,Lis_TA1-Cal-MP-D_CE,retained_with_flags,,MISSING_CrossSectionType | MISSING_MortarType
+373,Lis_TA1-Cal-MP-D_AC,retained_with_flags,,MISSING_CrossSectionType | MISSING_MortarType
+374,Lis_TA1-Cal-MP-D_CBACA,retained_with_flags,,MISSING_CrossSectionType | MISSING_MortarType
+375,Lis_TA1-Cal-MP-D_75BA,retained_with_flags,,MISSING_CrossSectionType | MISSING_MortarType
+376,Lis_TA1-Cal-MP-D_8562,retained_with_flags,,MISSING_CrossSectionType | MISSING_MortarType
+377,Lis_TA1-Cal-MP-D_3558E4,retained_with_flags,,MISSING_CrossSectionType | MISSING_MortarType
+378,Lis_TA1-Cal-MP-D_6654E,retained_with_flags,,MISSING_CrossSectionType | MISSING_MortarType
+379,Lis_TA1-Cal-MP-D_3A616,retained_with_flags,,MISSING_CrossSectionType | MISSING_MortarType
+380,Lis_TA1-Cal-MP-D_A0BF,retained_with_flags,,MISSING_CrossSectionType
+381,Lis_TA1-Cal-MP-D_6558A,retained_with_flags,,MISSING_CrossSectionType
+382,Lis_TA3-Cal-MP-D_11A48,retained_with_flags,,MISSING_CrossSectionType | MISSING_MortarType
+383,Lis_TA3-Cal-MP-D_223A9,retained_with_flags,,MISSING_CrossSectionType | MISSING_MortarType
+384,Lis_TA1-Cal-MP-D_6287,retained_with_flags,,MISSING_CrossSectionType
+385,Lis_TA1-Cal-MP-D_1F508,retained_with_flags,,MISSING_CrossSectionType
+386,Lis_TA1-Cal-MP-D_37C02,retained_with_flags,,MISSING_CrossSectionType | SURROUNDING_WHITESPACE: trimmed in filters only
+387,Lis_TA1-Cal-MP-D_3F143,retained_with_flags,,MISSING_CrossSectionType | SURROUNDING_WHITESPACE: trimmed in filters only
+388,Lis_-Cal-MP-D_1BBD,retained_with_flags,,MISSING_TYPOLOGY | MISSING_CrossSectionType | SURROUNDING_WHITESPACE: trimmed in filters only
+389,Lis_TA1-Cal-MP-D_23B6F,retained_with_flags,,MISSING_CrossSectionType | SURROUNDING_WHITESPACE: trimmed in filters only
+390,Lis_TA1-Cal-MP-D_A0E0,retained_with_flags,,MISSING_CrossSectionType
+391,Lis_TA1-Cal-MP-D_52D1,retained_with_flags,,MISSING_CrossSectionType | MISSING_MortarType
+392,Lis_TA1-Cal-MP-D_115CB,retained_with_flags,,MISSING_CrossSectionType | MISSING_MortarType
+393,Lis_TA1-Cal-MP-D_C3D6,retained_with_flags,,MISSING_CrossSectionType | MISSING_MortarType
+394,Lis_TA1-Cal-MP-D_75BD3,retained_with_flags,,MISSING_CrossSectionType | MISSING_MortarType
+395,Lis_TA2-Cal-MP-D_103B9E,retained_with_flags,,MISSING_CrossSectionType
+396,Lis_TA2-Cal-MP-D_213B85,retained_with_flags,,MISSING_CrossSectionType
+397,Lis_TA1-Cal-MP-D_BC41,retained_with_flags,,MISSING_CrossSectionType
+398,Lis_TA1-Cal-MP-D_7487A,retained_with_flags,,MISSING_CrossSectionType
+399,Lis_TA1-Cal-MP-D_20119,retained_with_flags,,MISSING_CrossSectionType
+400,Lis_TA1-Cal-MP-D_15D63,retained_with_flags,,MISSING_CrossSectionType
+401,Lis_TA1-Cal-MP-D_ED294,retained_with_flags,,MISSING_CrossSectionType
+402,Lis_TA1-Cal-MP-D_2E72B,retained_with_flags,,MISSING_CrossSectionType
+403,Lis_TA3-Cal-MP-D_3C747,retained_with_flags,,MISSING_CrossSectionType
+404,Lis_TA1-Cal-MP-D_1BDD5,retained_with_flags,,MISSING_CrossSectionType
+405,Lis_TA1-Cal-MP-D_6620,retained_with_flags,,MISSING_CrossSectionType
+406,Lis_TA1-Cal-MP-D_2F2E2,retained_with_flags,,MISSING_CrossSectionType
+407,Lis_TA3-Cal-MP-D_855E,retained_with_flags,,MISSING_CrossSectionType
+408,Lis_-Cal-MP-D_D378,retained_with_flags,,MISSING_TYPOLOGY | MISSING_CrossSectionType
+409,Lis_TA3-Cal-MP-D_C09,retained_with_flags,,MISSING_CrossSectionType
+410,Lis_TA1-Cal-MP-D_524C,retained_with_flags,,MISSING_CrossSectionType
+411,Lis_TA3-Cal-MP-D_16406,retained_with_flags,,MISSING_CrossSectionType
+412,Lis_TA3-Cal-MP-D_851F,retained_with_flags,,MISSING_CrossSectionType
+413,Lis_TA3-Cal-MP-D_66E08,retained_with_flags,,MISSING_CrossSectionType
+414,Lis_-Cal-MP-D_A7223,retained_with_flags,,MISSING_TYPOLOGY | MISSING_CrossSectionType | MISSING_MortarType
+415,Lis_TA1-Cal-MP-D_E735,retained_with_flags,,MISSING_CrossSectionType | MISSING_MortarType
+416,Lis_TA1-Cal-MP-D_89CB1,retained_with_flags,,MISSING_CrossSectionType
+417,Lis_TA1-Cal-MP-D_DFBA,retained_with_flags,,MISSING_CrossSectionType
+418,Lis_TA3-Cal-MP-D_1F35D1,retained_with_flags,,MISSING_CrossSectionType
+419,Lis_-Cal-MP-D_5164D,retained_with_flags,,MISSING_TYPOLOGY | MISSING_CrossSectionType
+420,Lis_TA3-Cal-MP-D_A27C5,retained_with_flags,,MISSING_CrossSectionType
+421,Lis_TA3-Cal-MP-D_2EB5F,retained_with_flags,,MISSING_CrossSectionType
+422,Lis_TA2-Cal-MP-D_68C8B,retained_with_flags,,MISSING_CrossSectionType
+423,Lis_TA1-Cal-MP-D_28248,retained_with_flags,,MISSING_CrossSectionType | MISSING_MortarType
+424,Lis_TA3-Cal-MP-D_18389,retained_with_flags,,MISSING_CrossSectionType
+425,Lis_TA3-Cal-MP-D_9529,retained_with_flags,,MISSING_CrossSectionType
+426,Alg_TA2-Cal-MP-D_950E,retained_with_flags,,MISSING_CrossSectionType
+427,Alg_TA2-Cal-MP-D_17E5,retained_with_flags,,MISSING_CrossSectionType
+428,Alg_TA2-Cal-MP-D_E789,retained_with_flags,,MISSING_CrossSectionType
+429,Alg_TA2-Cal-MP-D_2746,retained_with_flags,,MISSING_CrossSectionType
+430,Alg_TA1-Cal-MP-D_1A264,retained_with_flags,,MISSING_CrossSectionType | MISSING_MortarType
+431,Alg_TA1-Cal-MP-D_1A29C,retained_with_flags,,MISSING_CrossSectionType | MISSING_MortarType
+432,Lis_TA6-Cal-MP-D_F5423,retained_with_flags,,MISSING_CrossSectionType | MISSING_ReferenceSource | SURROUNDING_WHITESPACE: trimmed in filters only
+433,Lis_TA1-Cal-MP-D_F225,retained_with_flags,,MISSING_CrossSectionType | MISSING_ReferenceSource | SURROUNDING_WHITESPACE: trimmed in filters only
+434,Lis_TA1-Cal-MP-D_8DCC1,retained_with_flags,,MISSING_CrossSectionType | MISSING_ReferenceSource | SURROUNDING_WHITESPACE: trimmed in filters only
+435,Lis_TA1-Cal-MP-D_1360E,retained_with_flags,,MISSING_CrossSectionType | MISSING_ReferenceSource | SURROUNDING_WHITESPACE: trimmed in filters only
+436,Lis_TA6-Cal-MP-D_1CAE8D,retained_with_flags,,MISSING_CrossSectionType | MISSING_ReferenceSource | SURROUNDING_WHITESPACE: trimmed in filters only
+437,Lis_TA1-Cal-MP-D_2E369,retained_with_flags,,MISSING_CrossSectionType | MISSING_ReferenceSource
+438,Lis_TA1-Cal-MP-D_9BEB1,retained_with_flags,,MISSING_CrossSectionType | MISSING_ReferenceSource
+439,Lis_TA1-Cal-MP-D_33D67,retained_with_flags,,MISSING_CrossSectionType | MISSING_ReferenceSource
+440,Lis_TA1-Cal-MP-D_7B633,retained_with_flags,,MISSING_CrossSectionType | MISSING_ReferenceSource
+441,Lis_TA1-Cal-MP-D_B4158,retained_with_flags,,MISSING_CrossSectionType | MISSING_ReferenceSource
+442,Lis_TA1-Cal-MP-D_12EC5,retained_with_flags,,MISSING_CrossSectionType | MISSING_ReferenceSource
+443,Lis_TA1-Cal-MP-D_23BD1,retained_with_flags,,MISSING_CrossSectionType | MISSING_ReferenceSource
+444,Lis_TA1-Cal-MP-D_48D15,retained_with_flags,,MISSING_CrossSectionType | MISSING_ReferenceSource
+445,Lis_TA1-Cal-MP-D_19EC1,retained_with_flags,,MISSING_CrossSectionType | MISSING_ReferenceSource
+446,Lis_TA1-Cal-MP-D_60A95,retained_with_flags,,MISSING_CrossSectionType | MISSING_ReferenceSource
+447,Lis_TA1-Cal-MP-D_18BE8,retained_with_flags,,MISSING_CrossSectionType | MISSING_ReferenceSource
+448,Lis_TA1-Cal-MP-D_10995,retained_with_flags,,MISSING_CrossSectionType | MISSING_ReferenceSource
+449,Lis_TA1-Cal-MP-D_C48B,retained_with_flags,,MISSING_CrossSectionType | MISSING_ReferenceSource
+450,Lis_TA1-Cal-MP-D_17638,retained_with_flags,,MISSING_CrossSectionType | MISSING_ReferenceSource
+451,Lis_TA1-Cal-MP-D_1645D,retained_with_flags,,MISSING_CrossSectionType | MISSING_ReferenceSource
+452,Bra_TA3-Gra-MP-D_1647E,retained_with_flags,,MISSING_CrossSectionType | MISSING_ReferenceSource
+453,Bra_TA3-Gra-MP-D_5A59,retained_with_flags,,MISSING_CrossSectionType | MISSING_ReferenceSource
+454,Lis_TA1-Cal-MP-D_24417,retained_with_flags,,MISSING_CrossSectionType | MISSING_ReferenceSource
+455,Lis_TA1-Cal-MP-D_1F73C,retained_with_flags,,MISSING_CrossSectionType | MISSING_ReferenceSource
+456,Por_TA6-Gra-MP-D_99455,retained_with_flags,,MISSING_CrossSectionType | MISSING_ReferenceSource
+457,Por_TA6-Gra-MP-D_7FBB3,retained_with_flags,,MISSING_CrossSectionType | MISSING_ReferenceSource
+458,Lis_TA1-Cal-MP-D_4EC5,retained_with_flags,,MISSING_CrossSectionType | MISSING_ReferenceSource
+459,Lis_TA1-Cal-MP-D_5068,retained_with_flags,,MISSING_CrossSectionType | MISSING_ReferenceSource
+460,Evo_TA7-Tij-MP-D_1230E,retained_with_flags,,MISSING_CrossSectionType | MISSING_ReferenceSource
+461,Evo_TA7-Tij-MP-D_10312,retained_with_flags,,MISSING_CrossSectionType | MISSING_ReferenceSource
+462,Bra_TA5-Gra-S-D_898,retained_with_flags,,REPEATED_IDENTIFIER: distinct entries retained unless exact duplicate | MISSING_MortarType
+463,Bra_TA5-Gra-S-D_898,retained_with_flags,,REPEATED_IDENTIFIER: distinct entries retained unless exact duplicate | MISSING_MortarType
+464,Bra_TA5-Gra-S-D_898,retained_with_flags,,REPEATED_IDENTIFIER: distinct entries retained unless exact duplicate | MISSING_MortarType
+465,Bra_TA5-Gra-S-D_898,retained_with_flags,,REPEATED_IDENTIFIER: distinct entries retained unless exact duplicate | MISSING_MortarType
+466,Bra_TA1-Gra-S-D_7D0,retained_with_flags,,MISSING_MortarType
+467,Bra_TA1-Gra-S-D_7D1,retained_with_flags,,MISSING_MortarType
+468,Bra_TA1-Gra-S-D_7D2,retained_with_flags,,MISSING_MortarType
+469,Via_TA6-Gra-S-D_0,retained_with_flags,,MISSING_CrossSectionType | MISSING_MortarType
+470,Via_TA6-Gra-S-I_0,retained_with_flags,,MISSING_CrossSectionType | MISSING_MortarType
